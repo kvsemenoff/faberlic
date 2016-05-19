@@ -28,10 +28,10 @@
 	<script src="js/parallax.min.js"></script>
 	<script src="js/common.js"></script>
 
-	<?php include_once('header_top.php'); ?>
-	<?php include_once('heder_middle.php'); ?>
-	<?php include_once('futures.php'); ?>
-	<?php include_once('footer.php'); ?>
+	<?php require_once('header_top.php'); ?>
+	<?php require_once('header_middle.php'); ?>
+	<?php require_once('futures.php'); ?>
+	<?php require_once('footer.php'); ?>
 	
 
 	

@@ -1,0 +1,127 @@
+.pr4402-page-sort-info{
+	background: url(../img/top_line.jpg) top center no-repeat;
+	padding: 65px 0 64px 0;
+}
+.pr4402-page-sort-h1{
+	font-family: "LetoSans-Bold";
+	font-size: 22.31px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.pr4402-sort-row__item{
+	font-family: "LetoSansCondensed-Thin";
+	font-size: 15.75px;
+	line-height: 16.71px;
+}
+.pr4402-sort-row__item-right{
+	text-align: right;
+}
+.pr4402-sort-row__item__span{
+	display: inline-block;
+	background: url(../img/arrow-right.png) right no-repeat;
+	padding-right: 13px;
+}
+.pr4402-sort-row-select{
+	margin-left: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 132px;
+	height: 22px;
+	background-color: #fff;
+	border: 1px solid #CCCCCC;
+	color: #000;
+	text-align: center;
+	margin-left: 10px;
+}
+option:hover{
+	appearance: none;
+	background-color: #CBCBCB;
+	color: red;
+}
+.pr4402-sort-row-select::-ms-expand { /* for IE 11 */
+    display: none;
+}
+.pr4402-page-list__item{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.pr4402-page-list__item:last-child{
+	margin-bottom: 0px;
+}
+.pr4402-page-list-left{
+	background-color: #CCCCCC;
+	padding: 15px;
+}
+.pr4402-page-list-outbox{
+	width: 132px;
+	height: 132px;
+	background-color: #CCCCCC;
+	border: 1px solid #B2B2B2;
+	border-radius: 66px;
+	margin: 0 auto;
+}
+.pr4402-page-list-box{
+	display: table;
+	position: relative;
+	width: 130px;
+	height: 130px;
+	background-color: #fff;
+	border: 3px solid #CCCCCC;
+	border-radius: 65px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 6px;
+}
+.pr4402-page-list-imgbox{
+	display: table-cell;
+	width: 130px;
+	height: 100%;
+	border-radius: 65px;
+	text-align: center;
+	vertical-align: middle;
+}
+.pr4402-page-list-box-img{
+	display: inline-block;
+}
+.pr4402-page-list-star{
+	display: inline-block;
+	position: absolute;
+	top: -5px;
+	left: -12px;
+	background: url(../img/icon-star.png) no-repeat;
+	width: 22px;
+	height: 22px;
+	cursor: pointer; 
+}
+.pr4402-page-list-star:hover{
+	background: url(../img/icon-star-red.png) no-repeat;
+}
+.pr4402-page-list-right{
+	font-size: 13.2px;
+	padding: 15px 22px 9px 18px;
+	background-color: #FAFAFA;
+}
+.pr4402-page-list-right:hover{
+	background-color: #E7E7E7;
+}
+.pr4402-list__item-right{
+	text-align: right;
+}
+.pr4402-list-link{
+	font-family: "LetoSans";
+	font-size: 16.25px;
+	color: red;
+}
+.pr4402-list-span {
+	font-family: "LetoSansCondensed";
+	font-size: 9px;
+	color: #000;
+}
+.pr4402-list-text{
+	display: block;
+	font-family: "LetoSansCondensed-Thin";
+	font-size: 13.2px;
+	color: #000;
+	margin-top: 15px;
+}

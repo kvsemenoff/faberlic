@@ -35,7 +35,20 @@ q:before, q:after {
   content: none; }
 
 body {
-  font-family: "MyriadPro-Regular"; }
+  font-family: "MyriadPro-Regular";
+  line-height: 50px; }
+
+h1 {
+  font-family: "MyriadPro-Cond";
+  font-size: 72.14px !important;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 20px; }
+
+.header-sub-text {
+  font-family: "Myriad-Pro-Light-SemiExtended";
+  font-size: 24px;
+  color: #fff; }
 
 .button-1 {
   display: inline-block;
@@ -72,6 +85,24 @@ body {
   line-height: 25px;
   margin-bottom: 20px;
   font-family: "MyriadPro-Cond"; }
+
+/**==**/
+.acceleration {
+  width: 100%;
+  background: #c8db8c;
+  padding: 50px 0px;
+  height: 455px; }
+  .acceleration .container {
+    position: relative; }
+
+.acceleration-tetka {
+  display: block;
+  position: absolute;
+  right: 0px;
+  bottom: -120px; }
+
+.acc-middle-text p {
+  margin-bottom: 20px; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */

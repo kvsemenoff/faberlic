@@ -55,7 +55,8 @@ body {
 .future {
   width: 100%;
   max-width: 240px;
-  text-align: center; }
+  text-align: center;
+  margin: 0 auto; }
 
 .futures__img-box {
   margin-bottom: 20px; }

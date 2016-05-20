@@ -1,60 +1,50 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "LetoSans";
-  src: url("../fonts/LetoSans/LetoSans.eot");
-  src: local("☺"), url("../fonts/LetoSans/LetoSans.woff") format("woff"),
-  url("../fonts/LetoSans/LetoSans.ttf") format("truetype"),
-  url("../fonts/LetoSans/LetoSans.svg") format("svg");
+  font-family: "MyriadPro-Cond";
+  src: url("../fonts/MyriadPro-Cond/MyriadPro-Cond.eot");
+  src: local("☺"), url("../fonts/MyriadPro-Cond/MyriadPro-Cond.woff") format("woff"),
+  url("../fonts/MyriadPro-Cond/MyriadPro-Cond.ttf") format("truetype"),
+  url("../fonts/MyriadPro-Cond/MyriadPro-Cond.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "LetoSans-Bold";
-  src: url("../fonts/LetoSans-Bold/LetoSans-Bold.eot");
-  src: local("☺"), url("../fonts/LetoSans-Bold/LetoSans-Bold.woff") format("woff"),
-  url("../fonts/LetoSans-Bold/LetoSans-Bold.ttf") format("truetype"), 
-  url("../fonts/LetoSans-Bold/LetoSans-Bold.svg") format("svg");
+  font-family: "MyriadPro-Regular";
+  src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.eot");
+  src: local("☺"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.woff") format("woff"),
+  url("../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf") format("truetype"), 
+  url("../fonts/MyriadPro-Regular/MyriadPro-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "LetoSansCondensed";
-  src: url("../fonts/LetoSansCondensed/LetoSansCondensed.eot");
-  src: local("☺"), url("../fonts/LetoSansCondensed/LetoSansCondensed.woff") format("woff"),
-  url("../fonts/LetoSansCondensed/LetoSansCondensed.ttf") format("truetype"),
-  url("../fonts/LetoSansCondensed/LetoSansCondensed.svg") format("svg");
+  font-family: "MyriadWebPro2";
+  src: url("../fonts/MyriadWebPro2/MyriadWebPro2.eot");
+  src: local("☺"), url("../fonts/MyriadWebPro2/MyriadWebPro2.woff") format("woff"),
+  url("../fonts/MyriadWebPro2/MyriadWebPro2.ttf") format("truetype"),
+  url("../fonts/MyriadWebPro2/MyriadWebPro2.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "LetoSansCondensed-Bold";
-  src: url("../fonts/LetoSansCondensed-Bold/LetoSansCondensed-Bold.eot");
-  src: local("☺"), url("../fonts/LetoSansCondensed-Bold/LetoSansCondensed-Bold.woff") format("woff"),
-  url("../fonts/LetoSansCondensed-Bold/LetoSansCondensed-Bold.ttf") format("truetype"),
-  url("../fonts/LetoSansCondensed-Bold/LetoSansCondensed-Bold.svg") format("svg");
+  font-family: "MyriadWebPro-Condensed";
+  src: url("../fonts/MyriadWebPro-Condensed/MyriadWebPro-Condensed.eot");
+  src: local("☺"), url("../fonts/MyriadWebPro-Condensed/MyriadWebPro-Condensed.woff") format("woff"),
+  url("../fonts/MyriadWebPro-Condensed/MyriadWebPro-Condensed.ttf") format("truetype"),
+  url("../fonts/MyriadWebPro-Condensed/MyriadWebPro-Condensed.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "LetoSansCondensed-Thin";
-  src: url("../fonts/LetoSansCondensed-Thin/LetoSansCondensed-Thin.eot");
-  src: local("☺"), url("../fonts/LetoSansCondensed-Thin/LetoSansCondensed-Thin.woff") format("woff"),
-  url("../fonts/LetoSansCondensed-Thin/LetoSansCondensed-Thin.ttf") format("truetype"),
-  url("../fonts/LetoSansCondensed-Thin/LetoSansCondensed-Thin.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "LetoSans-Thin";
-  src: url("../fonts/LetoSans-Thin/LetoSans-Thin.eot");
-  src: local("☺"), url("../fonts/LetoSans-Thin/LetoSans-Thin.woff") format("woff"),
-  url("../fonts/LetoSans-Thin/LetoSans-Thin.ttf") format("truetype"),
-  url("../fonts/LetoSans-Thin/LetoSans-Thin.svg") format("svg");
+  font-family: "Myriad-Pro-Light-SemiExtended";
+  src: url("../fonts/Myriad-Pro-Light-SemiExtended/Myriad-Pro-Light-SemiExtended.eot");
+  src: local("☺"), url("../fonts/Myriad-Pro-Light-SemiExtended/Myriad-Pro-Light-SemiExtended.woff") format("woff"),
+  url("../fonts/Myriad-Pro-Light-SemiExtended/Myriad-Pro-Light-SemiExtended.ttf") format("truetype"),
+  url("../fonts/Myriad-Pro-Light-SemiExtended/Myriad-Pro-Light-SemiExtended.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }

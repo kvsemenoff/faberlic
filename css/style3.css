@@ -1,6 +1,13 @@
-.bodyPad {
-  padding-left: 201px; }
-
+@keyframes shadow {
+  from {
+    padding-left: 0px; }
+  to {
+    padding-left: 201px; } }
+@keyframes shadow1 {
+  from {
+    left: -201px; }
+  to {
+    left: 0px; } }
 .header-top {
   background: #f22e89;
   height: 65px;
@@ -11,18 +18,19 @@
   position: fixed;
   width: 201px;
   height: 100%;
-  left: 0;
+  animation: shadow1  1s 1 ease-in-out;
+  left: 0px;
   top: 0px;
   z-index: 4; }
 
 .header-top__menu-unpressed {
-  cursor: pointer;
   display: block;
   padding: 25px 0 0 15px;
   color: #fff;
   background: #f22e89; }
 
 .menu-menu {
+  cursor: pointer;
   display: block;
   color: #fff; }
 
@@ -49,7 +57,7 @@
 
 .header-top__login {
   display: inline-block;
-  padding: 25px 0 0 50px;
+  margin: 25px 0 0 50px;
   color: #fff; }
 
 .padding-left {
@@ -64,6 +72,10 @@
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .bodyPad {
+    animation: shadow  1s 1 ease-in-out;
+    padding-left: 201px; } }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .fab-hid-sm {
@@ -74,13 +86,16 @@
     display: inline; }
 
   .header-top__logo {
-    padding-left: 0; }
-
-  .header-top__menu {
+    padding-left: 0; } }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .menu-list-unpressed {
     display: inline-block; }
+
+  .menu-item:first-child {
+    margin-top: 0px; }
 
   .menu-item {
     display: inline-block; } }
-/* Large Devices, Wide Screens */
 
 /*# sourceMappingURL=style3.css.map */

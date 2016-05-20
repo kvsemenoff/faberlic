@@ -1,5 +1,27 @@
 .header-top {
-  background: #f22e89; }
+  background: #f22e89;
+  height: 65px; }
+
+.header-top__menu {
+  display: inline-block;
+  padding-top: 20px;
+  color: #fff; }
+
+.menu-item {
+  display: inline-block;
+  margin-right: 40px; }
+
+.menu-item__link {
+  color: #fff; }
+
+.header-top__logo {
+  display: inline-block;
+  padding: 17px 0 0 53px; }
+
+.header-top__login {
+  display: inline-block;
+  padding: 20px 0 0 50px;
+  color: #fff; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
@@ -17,7 +39,10 @@
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .fab-vis-md {
-    display: inline; } }
+    display: inline; }
+
+  .header-top__logo {
+    padding-left: 0; } }
 /* Large Devices, Wide Screens */
 
 /*# sourceMappingURL=style3.css.map */

@@ -34,6 +34,10 @@
   width: 100%;
   height: auto; }
 
+.program_item {
+  background-color: #CC7CA7;
+  max-width: 270px; }
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */

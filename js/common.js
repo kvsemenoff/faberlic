@@ -1,6 +1,13 @@
 
 $(document).ready(function(){
 
+    $('.menu-menu').click(function(){
+        $('.header-top__menu-unpressed').toggleClass('header-top__menu-pressed');
+        $('.header-top__menu-unpressed ul').toggleClass('menu-list-pressed');
+        $('body').toggleClass('bodyPad');
+        
+    });
+
     $(".single_image").fancybox();
 
     $("a[rel=group]").fancybox({

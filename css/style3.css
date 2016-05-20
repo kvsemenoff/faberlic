@@ -1,15 +1,44 @@
+.bodyPad {
+  padding-left: 201px; }
+
 .header-top {
   background: #f22e89;
-  height: 65px; }
+  height: 65px;
+  font-size: 12px;
+  text-transform: uppercase; }
 
-.header-top__menu {
-  display: inline-block;
-  padding-top: 20px;
+.header-top__menu-pressed {
+  position: fixed;
+  width: 201px;
+  height: 100%;
+  left: 0;
+  top: 0px;
+  z-index: 4; }
+
+.header-top__menu-unpressed {
+  cursor: pointer;
+  display: block;
+  padding: 25px 0 0 15px;
+  color: #fff;
+  background: #f22e89; }
+
+.menu-menu {
+  display: block;
   color: #fff; }
 
+.menu-list-unpressed {
+  display: none; }
+
+.menu-list-pressed {
+  display: block; }
+
+.menu-item:first-child {
+  margin-top: 55px; }
+
 .menu-item {
-  display: inline-block;
-  margin-right: 40px; }
+  display: block;
+  margin-right: 40px;
+  margin-bottom: 10px; }
 
 .menu-item__link {
   color: #fff; }
@@ -20,8 +49,11 @@
 
 .header-top__login {
   display: inline-block;
-  padding: 20px 0 0 50px;
+  padding: 25px 0 0 50px;
   color: #fff; }
+
+.padding-left {
+  padding-left: 0 !important; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
@@ -42,7 +74,13 @@
     display: inline; }
 
   .header-top__logo {
-    padding-left: 0; } }
+    padding-left: 0; }
+
+  .header-top__menu {
+    display: inline-block; }
+
+  .menu-item {
+    display: inline-block; } }
 /* Large Devices, Wide Screens */
 
 /*# sourceMappingURL=style3.css.map */

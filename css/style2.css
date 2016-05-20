@@ -36,7 +36,37 @@
 
 .program_item {
   background-color: #CC7CA7;
-  max-width: 270px; }
+  max-width: 270px;
+  color: #fff;
+  text-align: center;
+  padding-top: 40px; }
+
+.program_item__imgtop {
+  display: block;
+  margin: 0px auto; }
+
+.program_item__title {
+  font-family: "MyriadPro-LightCond";
+  font-size: 36px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 5px; }
+
+.program_item__subtitle {
+  font-family: "Myriad-Pro-Light-SemiExtended";
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 15px; }
+
+.program_item__text {
+  font-family: "MyriadPro-Regular";
+  font-size: 15.98px;
+  color: #fff;
+  margin-bottom: 10px; }
+
+.program_item__girl-img {
+  width: 120px;
+  height: 224px; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */

@@ -39,13 +39,13 @@
 	
 	<div class="program_item">
 		<div class="program_item__img-box">
-			<img src="img/program-img.png" alt="program-img">
+			<img src="img/program-img.png" alt="program-img" class="program_item__imgtop">
 		</div>
 		<div class="program_item__title">Перезагрузка</div>
 		<div class="program_item__subtitle">классическая программа</div>
 		<div class="program_item__text">Для тех, кто хочет долговременного эффекта и готов изменить свои привычки питания</div>
 		<div class="program_item__girl">
-			<img src="img/program-girl.png" alt="program-girl">
+			<img src="img/program-girl.png" alt="program-girl" class="program_item__girl-img">
 		</div>
 		<div class="program_item-button"></div>  <!-- Указать существующий класс кнопки -->
 	</div>

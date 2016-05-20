@@ -5,6 +5,7 @@
 
 .header-top {
     background: #f22e89;
+
 }
 
 // ******************** top ********************
@@ -53,12 +54,16 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-  
+    .fab-hid-sm {
+        display: none;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-   
+    .fab-vis-md {
+        display: inline;
+    }
 }
 
  /* Large Devices, Wide Screens */

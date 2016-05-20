@@ -11,7 +11,13 @@
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .fab-hid-sm {
+    display: none; } }
 /* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .fab-vis-md {
+    display: inline; } }
 /* Large Devices, Wide Screens */
 
 /*# sourceMappingURL=style3.css.map */

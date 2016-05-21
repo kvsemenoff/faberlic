@@ -55,6 +55,7 @@
 .program-cell1{
     width: 33.3%;
     background-color: #B4D078;
+    // position: relative;
 }
 .program-cell2{
     width: 33.3%;
@@ -121,9 +122,16 @@
     text-transform: uppercase;
     color: #fff;
     padding: 25px 40px 22px 29px;
-    bottom: 155px;
-    left: 445px;
-    background: #003D58 url(../img/prog-arrow-bottom.png) 345px 34px no-repeat;
+    bottom: -25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    // background: #003D58 url(../img/prog-arrow-bottom.png) 345px 34px no-repeat;
+    background-color: #003D58;
+}
+.program_item-link-icon{
+    display: inline-block;
+    color: #fff;
+    padding-left: 10px;
 }
 
 // *********************** programs.php ***********************
@@ -225,7 +233,7 @@
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     //padding: 0px;
     //margin: 0px;
-    outline: 1px solid red;
+    //outline: 1px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
     //padding: 0px;

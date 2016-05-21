@@ -54,10 +54,47 @@
 						<img src="img/program-girl-top.png" alt="program-girl-top" class="header_middle-women header_middle-women__programs">
 					</div>
 				</div>
+				<a href="#" class="program_item-link">Подбери себе программу
+					<span>
+						<i class="fa fa-long-arrow-down program_item-link-icon" aria-hidden="true"></i>
+					</span>
+				</a>
 			</div>
 		</div>
 	</section>
 <!-- *********************** header_middle ***********************-->
+
+<!-- *********************** middle-box ***********************-->
+
+<section class="header_middle">
+	<div class="container">
+		<img src="" alt="">
+		<span>Пройдите тест и подберите Программу Управления весом специально для вас!</span>
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+			<li>6</li>
+			<li>7</li>
+		</ul>
+		<div class="row">
+			<div class="col-md-2">
+
+			</div>
+			<div class="col-md-8">
+
+			</div>
+			<div class="col-md-2">
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- *********************** middle-box ***********************-->
+
 <div class="program-cell">
 	<div class="program_item">
 		<div class="program_item__img-box">
@@ -100,7 +137,6 @@
 		<div class="program_item-button"></div>  <!-- Указать существующий класс кнопки -->
 	</div>
 </div>
-<a href="#" class="program_item-link">Подбери себе программу</a>
 <!-- *********************** programs.php *********************** -->
 
 	<?php require_once('footer.php'); ?>

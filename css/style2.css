@@ -1,6 +1,7 @@
 .header_middle {
   background-color: #00B3CE;
-  padding-top: 32px; }
+  padding-top: 32px;
+  position: relative; }
 
 .header_middle-right {
   width: 100%; }
@@ -30,16 +31,41 @@
   text-align: center;
   margin: 30px 0px; }
 
+.header_middle-span3__programs {
+  font-family: "MyriadPro-Regular"; }
+
 .header_middle-women {
   width: 100%;
   height: auto; }
+
+.program-cell {
+  width: 33.3%;
+  float: left;
+  background-color: #CC7CA7;
+  height: 500px;
+  text-align: center; }
+
+.program-cell1 {
+  width: 33.3%;
+  background-color: #B4D078; }
+
+.program-cell2 {
+  width: 33.3%;
+  background-color: #FFCB5C; }
 
 .program_item {
   background-color: #CC7CA7;
   max-width: 270px;
   color: #fff;
   text-align: center;
-  padding-top: 40px; }
+  padding-top: 40px;
+  margin: 0 auto; }
+
+.program_item1 {
+  background-color: #B4D078; }
+
+.program_item2 {
+  background-color: #FFCB5C; }
 
 .program_item__imgtop {
   display: block;
@@ -68,6 +94,26 @@
   width: 120px;
   height: 224px; }
 
+.program_item__girl-img1 {
+  width: 230px;
+  height: 231px; }
+
+.program_item__girl-img2 {
+  width: 150px;
+  height: 218px; }
+
+.program_item-link {
+  display: block;
+  position: absolute;
+  font-family: "MyriadPro-Regular";
+  font-size: 24.5px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 25px 40px 22px 29px;
+  bottom: 155px;
+  left: 445px;
+  background: #003D58 url(../img/prog-arrow-bottom.png) 345px 34px no-repeat; }
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
@@ -93,9 +139,19 @@
     width: 352px;
     height: 556px; }
 
+  .header_middle-women__programs {
+    width: 232px;
+    height: 343px;
+    margin: 76px 0px 0px 45px; }
+
   .header_middle-span1 {
     font-size: 99.74px;
     margin-top: 107px; }
+
+  .header_middle-span1__programs {
+    font-size: 72.14px;
+    text-align: left;
+    margin-top: 117px; }
 
   .header_middle-span2 {
     font-size: 81.12px;
@@ -103,7 +159,12 @@
 
   .header_middle-span3 {
     font-size: 24px;
-    margin-top: 34px; } }
+    margin-top: 34px; }
+
+  .header_middle-span3__programs {
+    font-size: 18px;
+    text-align: left;
+    margin: 45px 0px 95px 0px; } }
 /* Large Devices, Wide Screens */
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
   outline: 1px solid red; }

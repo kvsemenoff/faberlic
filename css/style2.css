@@ -120,6 +120,66 @@
   color: #fff;
   padding-left: 10px; }
 
+.ac-additional-block {
+  padding-top: 50px; }
+
+.ac-additional-borderbox {
+  max-width: 455px;
+  text-align: center;
+  margin: 0 auto; }
+
+.ac-borderbox-span {
+  display: block;
+  font-family: "Myriad-Pro-Light-SemiExtended";
+  font-size: 24px;
+  margin-top: 26px; }
+
+.ac-list__item {
+  display: inline-block;
+  padding: 20px 25px 7px 25px;
+  font-family: "MyriadWebPro-Condensed";
+  font-size: 24px;
+  color: #7CC5CF;
+  margin-top: 15px; }
+
+.ac-list__item-active {
+  background-color: #E6F3F5; }
+
+.ac-row-block {
+  background-color: #E6F3F5; }
+
+.ac-circle-left {
+  display: inline-block;
+  padding-top: 140px;
+  padding-left: 100px; }
+
+.ac-circle-right {
+  display: inline-block;
+  padding-top: 140px;
+  padding-left: 25px; }
+
+.ac-row-block2 {
+  padding: 40px 0px;
+  text-align: center; }
+
+.ac-row_span {
+  display: block;
+  font-family: "Myriad-Pro-Light-SemiExtended";
+  font-size: 18px;
+  margin-bottom: 18px; }
+
+.ac-row_link {
+  display: inline-block;
+  width: 360px;
+  height: 55px;
+  padding: 18px 0px;
+  border: 1px solid #7CC5CF;
+  margin-top: 15px;
+  margin-right: 10px;
+  font-family: "MyriadPro-Regular";
+  font-size: 14px;
+  text-align: center; }
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */

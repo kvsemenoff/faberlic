@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Главная страница</title>
+	<title>Программы</title>
 	<link rel="shortcut icon" href="favicon.png" />
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/style2.css">
@@ -66,28 +66,42 @@
 
 <!-- *********************** middle-box ***********************-->
 
-<section class="header_middle">
+<section class="ac-additional-block">
 	<div class="container">
-		<img src="" alt="">
-		<span>Пройдите тест и подберите Программу Управления весом специально для вас!</span>
-		<ul>
-			<li>1</li>
-			<li>2</li>
-			<li>3</li>
-			<li>4</li>
-			<li>5</li>
-			<li>6</li>
-			<li>7</li>
-		</ul>
-		<div class="row">
-			<div class="col-md-2">
-
+		<div class="ac-additional-borderbox">
+			<img src="img/question.png" alt="question" class="ac-borderbox-img">
+			<span class="ac-borderbox-span">Пройдите тест и подберите Программу Управления весом специально для вас!</span>
+			<ul class="ac-list">
+				<li class="ac-list__item">1</li>
+				<li class="ac-list__item ac-list__item-active">2</li>
+				<li class="ac-list__item">3</li>
+				<li class="ac-list__item">4</li>
+				<li class="ac-list__item">5</li>
+				<li class="ac-list__item">6</li>
+				<li class="ac-list__item">7</li>
+			</ul>
+		</div>
+		<div class="row ac-row-block">
+			<div class="col-md-2 ac-row-block1">
+				<a href="#" class="ac-circle-left"><img src="img/arrow-in-circle-left.png" alt="arrow-in-circle-left"></a>
 			</div>
-			<div class="col-md-8">
-
+			<div class="col-md-8 ac-row-block2">
+				<span class="ac-row_span">Как вы оцениваете ваш вес?</span>
+				<div class="col-md-6">
+					<a href="#" class="ac-row_link">Я вешу намного больше, чем хотелось бы</a>
+				</div>
+				<div class="col-md-6">
+					<a href="#" class="ac-row_link">Я вешу немного больше, чем хотелось бы </a>
+				</div>
+				<div class="col-md-6">
+					<a href="#" class="ac-row_link">Меня устраивает свой вес </a>
+				</div>
+				<div class="col-md-6">
+					<a href="#" class="ac-row_link">Я вешу меньше, чем хотелось бы</a>
+				</div>	
 			</div>
-			<div class="col-md-2">
-
+			<div class="col-md-2 ac-row-block3">
+				<a href="#" class="ac-circle-right"><img src="img/arrow-in-circle-right.png" alt="arrow-in-circle-right"></a>
 			</div>
 		</div>
 	</div>

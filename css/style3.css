@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @keyframes shadow {
   from {
     padding-left: 0px; }
@@ -63,6 +64,160 @@
 .padding-left {
   padding-left: 0 !important; }
 
+.ae {
+  background: #009049; }
+
+.ae-link {
+  color: #fff;
+  font-size: 18px; }
+
+.ae-link__margin {
+  margin: 42px 0 0 0;
+  display: block; }
+
+.ae-span {
+  color: #fff;
+  font-size: 18px;
+  display: block; }
+
+.ae-span__margin {
+  margin-top: 2px; }
+
+.ae-span__margin2 {
+  margin-bottom: 16px; }
+
+.ae-span2 {
+  color: #fff;
+  font-size: 24px; }
+
+.ae-span2__margin {
+  display: table-cell;
+  vertical-align: middle; }
+
+/*╨║╨╜╨╛╨┐╨║╨░ ╨Ъ╤Г╨┐╨╕╤В╤М*/
+.ae-button {
+  width: 175px;
+  height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell; }
+
+.ae-button__margin {
+  padding-left: 15px; }
+
+.ae-button__button {
+  color: #f22e89;
+  background: #fff;
+  width: 175px;
+  height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell; }
+
+/*╨║╨╜╨╛╨┐╨║╨░ ╨Ъ╤Г╨┐╨╕╤В╤М*/
+.ae-span__margin3 {
+  margin-top: 12px;
+  display: block; }
+
+.ae-menu {
+  font-family: "MyriadPro-Cond";
+  font-size: 18px;
+  color: #fff;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase; }
+
+/* ╨╝╨╡╨╜╤О ╨╛ ╨┐╤А╨╛╨┤╤Г╨║╤Ж╨╕╨╕ ╤Б╨╛╤Б╤В╨░╨▓*/
+.ae-menu:hover {
+  background: #fff;
+  color: #000; }
+
+.ae-menu__margin {
+  display: inline-block;
+  margin-top: 40px; }
+
+.ae-menu__margin2 {
+  display: inline-block; }
+
+/* ╨╝╨╡╨╜╤О ╨╛ ╨┐╤А╨╛╨┤╤Г╨║╤Ж╨╕╨╕ ╤Б╨╛╤Б╤В╨░╨▓*/
+/*╨║╨░╤А╤В╨╕╨╜╨║╨░ ╤И╨┐╨╕╨╜╨░╤В*/
+.ae-relative {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+.ae-absolute {
+  position: absolute;
+  top: 81px; }
+
+.ae-img {
+  width: 274px;
+  height: 350px; }
+
+/*╨║╨░╤А╤В╨╕╨╜╨║╨░ ╤И╨┐╨╕╨╜╨░╤В*/
+/*ae-ingrid*/
+.ae-center {
+  text-align: center; }
+
+.ae-ingrid-sostav {
+  display: block;
+  font-size: 16px; }
+
+.ae-ingrid-sostav__margin {
+  margin-top: 75px; }
+
+.ae-shpinat__margin {
+  margin-top: 25px; }
+
+.ae-word__margin {
+  margin-top: 15px; }
+
+.ae-word {
+  font-size: 24px;
+  font-family: "MyriadPro-Cond";
+  text-transform: uppercase; }
+
+.ae-par__margin {
+  margin-top: 37px; }
+
+.ae-par {
+  font-size: 16px; }
+
+.ae-shpinat__margin2 {
+  margin-top: 13px; }
+
+.ae-par__margin2 {
+  margin-top: 20px; }
+
+.ae-inter__margin {
+  margin-top: 60px; }
+
+.ae-inter {
+  font-size: 18px;
+  font-family: "MyriadPro-Cond";
+  display: block; }
+
+.ae-button2 {
+  width: 310px;
+  height: 70px;
+  background: #b87ba4;
+  display: inline-block;
+  line-height: 70px;
+  color: #fff;
+  font-size: 24.5px;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.ae-button2__margin {
+  margin: 31px 0 63px 0; }
+
+.ae-button2_color {
+  background: #c8db8c; }
+
+/*ae-ingrid*/
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */

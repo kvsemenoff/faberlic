@@ -57,6 +57,9 @@
 					
 					<span class="ae-span ae-span__margin3">Следите за скидкам и акциями на сайте Faberlic</span>
 					
+					<div class="ae-button__margin ae-button ae-button-xs">
+						<a href="#" class="ae-button__button">Купить</a>
+					</div>
 					
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-4">

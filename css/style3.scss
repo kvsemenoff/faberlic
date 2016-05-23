@@ -118,6 +118,7 @@ to {left: 0px;}
     color: #fff;
     font-size: 18px;
     display: block;
+    text-align: center;
 }
 .ae-span__margin {
     margin-top: 2px;  
@@ -131,12 +132,13 @@ to {left: 0px;}
 .ae-span2 {
     color: #fff;
     font-size: 24px;
-    
+
 }
 .ae-span2__margin{
-    display: table-cell;
+    display: block;
     vertical-align: middle;
-    
+    text-align: center;
+    display: block; 
 }
 
 
@@ -147,7 +149,8 @@ to {left: 0px;}
     height: 40px;
     vertical-align: middle;
     text-align: center;
-    display: table-cell;
+    //display: table-cell;
+    display: none;
 }
 .ae-button__margin{
     padding-left: 15px;
@@ -160,6 +163,7 @@ to {left: 0px;}
     vertical-align: middle;
     text-align: center;
     display: table-cell;
+
 }
 /*кнопка Купить*/
 
@@ -403,6 +407,7 @@ to {left: 0px;}
      height: 399px;
 }
 
+
 /**/
 
 
@@ -449,7 +454,18 @@ to {left: 0px;}
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-
+    .ae-button-xs{
+        display: block;
+    }
+    .ae-span {
+        text-align: center;
+    }
+    .ae-span2{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -465,8 +481,24 @@ to {left: 0px;}
     .fab-hid-sm {
         display: none;
     }
+    .ae-button{
+        display: table-cell;
+    }
 
+    .ae-button-xs{
+        display: none;
+    }
+    .ae-span {
+        text-align: left;
+    }
+    .ae-span2{
+        display: table-cell;
     
+        text-align: left;
+    }
+    h1{
+        text-align: left;
+    }
 }
 
 /* Medium Devices, Desktops */

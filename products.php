@@ -52,9 +52,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12 col-sm-12 col-xs-12">
-					<ul class="ac-list-products">
+			<!-- <div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12"> -->
+				<!-- 	<ul class="ac-list-products">
 						<div class="row no-gutter">
 							<div class="col-md-1 col-sm-4 col-xs-12">
 								<li class="ac-list__item-products">EATLESS И PHYTOX</li>
@@ -75,9 +75,27 @@
 								<li class="ac-list__item-products">Коктейли белковые и на молочной сыворотке</li>
 							</div>
 						</div>
+					</ul> -->
+					<ul class="ac-list-products">
+						
+							
+								<li class="ac-list__item-products"><span>EATLESS И PHYTOX</span></li>
+							
+							
+								<li class="ac-list__item-products"><span>Каши</span></li>
+							
+								<li class="ac-list__item-products"><span>СУПЫ</span></li>
+							
+								<li class="ac-list__item-products active"><span>Коктейли Завтрак, Обед, Ужин</span></li>
+							
+								<li class="ac-list__item-products"><span>Напитки (Кисели, кофе, какао) </span></li>
+						
+								<li class="ac-list__item-products"><span>Коктейли белковые и на молочной сыворотке</span></li>
+							
+						
 					</ul>
-				</div>
-			</div>
+			<!-- 	</div>
+			</div> -->
 		</div>
 	</section>
 

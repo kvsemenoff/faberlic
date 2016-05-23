@@ -216,17 +216,21 @@
 .ac-span {
   margin-bottom: 30px; }
 
+.ac-list-products {
+  margin-top: 30px; }
+
 .ac-list__item-products {
-  display: inline-block;
+  display: block;
   padding: 15px 10px;
-  max-width: 215px;
+  max-width: 277px;
   font-family: "MyriadPro-Cond";
   font-size: 21px;
   color: #fff;
   margin-top: 15px;
   text-transform: uppercase;
   cursor: pointer;
-  text-align: center; }
+  text-align: center;
+  border: 1px solid #458ECE; }
 
 .ac-list__item-products:hover {
   background-color: #fff;
@@ -389,7 +393,12 @@
     margin-top: 56px; }
 
   .ac-list-products {
-    margin-top: -104px; } }
+    margin-top: -104px; }
+
+  .ac-list__item-products {
+    display: inline-block;
+    max-width: 215px;
+    border: none; } }
 /* Large Devices, Wide Screens */
 
 /*# sourceMappingURL=style2.css.map */

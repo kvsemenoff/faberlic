@@ -57,17 +57,27 @@
 					
 					<span class="ae-span ae-span__margin3">Следите за скидкам и акциями на сайте Faberlic</span>
 					
-					<ul>
-						<li class="ae-menu ae-menu__margin">О продукте</li>
-						<li class="ae-menu ae-menu__margin">Состав</li>
-						<li class="ae-menu ae-menu__margin">Как применять</li>
-						<li class="ae-menu ae-menu__margin">Отзывы</li>
-					</ul>
+					
 				</div>
 				<div class="col-md-4">
 					<div class="ae-relative">
 						<img class="ae-absolute ae-img" src="img/soup.png" alt="">
 					</div>		
+				</div>
+			</div>		
+		</div>
+	</section>
+	
+	<section class="ae">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="ae_margin">
+						<li class="ae-menu ae-menu__margin2">О продукте</li>
+						<li class="ae-menu ae-menu__margin2">Состав</li>
+						<li class="ae-menu ae-menu__margin2">Как применять</li>
+						<li class="ae-menu ae-menu__margin2">Отзывы</li>
+					</ul>
 				</div>
 			</div>		
 		</div>
@@ -92,20 +102,124 @@
 	</div>
 </section>
 
-	<section class="ae">
+	<section class="ae ae__margin4">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<ul class="">
-						<li class="ae-menu ae-menu__margin2">О продукте</li>
-						<li class="ae-menu ae-menu__margin2">Состав</li>
-						<li class="ae-menu ae-menu__margin2">Как применять</li>
-						<li class="ae-menu ae-menu__margin2">Отзывы</li>
+						<li class="ae-menu ae-menu__margin2 ae-menu_style">О продукте</li>
+						<li class="ae-menu ae-menu__margin2 ae-menu_style">Состав</li>
+						<li class="ae-menu ae-menu__margin2 ae-menu_style">Как применять</li>
+						<li class="ae-menu ae-menu__margin2 ae-menu_style">Отзывы</li>
 					</ul>
 				</div>
 			</div>		
 		</div>
 	</section>
+
+<section class="">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-1 col-md-10 col-md-offset-1">
+					<span class="ae-bold ae-bold__margin">Состав</span>
+					<p class="ae-regular">Специально обработанный измельченный горох, мука кукурузная цельнозерновая, порошок шпината, 
+порошок крапивы, соль, фруктоза, специи, эмульгатор лецитин, регулятор кислотности лимонная кислота.</p>
+				</div>
+			</div>
+				<div class="row">
+					<div class="col-md-offset-1 col-md-6">
+						<span class="ae-bold ae-bold__margin2">Пищевая ценность на 1 порцию (25 г продукта):</span>
+						<span class="ae-regular">белки . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 г;</span> <br>
+						<span class="ae-regular">жиры . . . . . . . . .  . . . . . . . . . . . . . . . . . . 0.5 г;</span> <br>
+						<span class="ae-regular">углеводы . . . . . . . . . . . . . . . . . . . . . . . 12 г;</span> <br>
+						<span class="ae-regular">пищевые волокна . . . . . . . . . . . . . . .3 г.</span> <br>
+						<span class="ae-bold ae-bold__margin3">Энергетическая ценность 1 порции:</span>
+						<span class="ae-regular">85 ккал/355 кДж.</span>
+					</div>
+					<div class="col-md-4 col-md-offset-1">
+						<span class="ae-bold ae-bold__margin2">Не содержит:</span>
+						<span class="ae-regular ae-regular__margin">ГМО</span> <br>
+						<span class="ae-regular">Сахар</span> <br>
+						<span class="ae-regular">Глютен</span> <br>
+						<span class="ae-regular">Холестерин</span> <br>
+						<span class="ae-regular">Консерванты</span> <br>
+						<span class="ae-regular">Усилители вкуса</span> <br>
+						<span class="ae-regular">Искусственные ароматизаторы</span> <br>
+					</div>
+				</div>
+		</div>
+	</section>
+
+	<section class="ae ae__margin">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="">
+						<li class="ae-menu ae-menu__margin2 ae-menu_style">О продукте</li>
+						<li class="ae-menu ae-menu__margin2 ae-menu_style">Состав</li>
+						<li class="ae-menu ae-menu__margin2 ae-menu_style">Как применять</li>
+						<li class="ae-menu ae-menu__margin2 ae-menu_style">Отзывы</li>
+					</ul>
+				</div>
+			</div>		
+		</div>
+	</section>
+
+	
+	<section class="">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-1 col-md-10 col-md-offset-1">
+					<span class="ae-bold ae-bold__margin">Как применять</span>
+					<span class="ae-regular">Содержимое пакетика тщательно размешайте в 200-250 мл чуть горячей воды.</span> <br>
+					<span class="ae-regular ae-regular__margin">Дайте настояться 2-3 минуты.</span> <br>
+					<span class="ae-regular">Внимание! Не варить и не заливать крутым кипятком.</span> <br>
+					<span class="ae-regular">Рекомендованная температура воды 60-700 С.</span> <br>
+				</div>
+			</div>		
+		</div>
+	</section>
+
+	<section class="ae ae__margin2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="">
+						<li class="ae-menu ae-menu__margin2 ae-menu_style">О продукте</li>
+						<li class="ae-menu ae-menu__margin2 ae-menu_style">Состав</li>
+						<li class="ae-menu ae-menu__margin2 ae-menu_style">Как применять</li>
+						<li class="ae-menu ae-menu__margin2 ae-menu_style">Отзывы</li>
+					</ul>
+				</div>
+			</div>		
+		</div>
+	</section>
+
+	
+	<section class="">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-1 col-md-10 col-md-offset-1">
+					<span class="ae-bold ae-bold__margin2">Анна 2015-10-19</span>
+					<p class="ae-regular">Сейчас ем суп со шпинатом. Честно признаюсь, выглядит он не ахти. Пришлось 5 минут себя настраивать на то, 
+чтобы его съесть... Но вкус вполне неплохой для такого продукта. Буду заказывать ещё.</p>
+					<span class="ae-bold ae-bold__margin3">Фатима 2015-10-19</span>
+					<p class="ae-regular">Суп очень вкусный, а самое главное - полезный, с точки зрения здоровья! Вся зелень ощелачивает организм, 
+соответственно, мощнейшая профилактика старения организма!</p>
+					
+					<div class="ae-center">
+						<a class="ae-button2 ae-button2__margin ae-button2_color2" href="">регистрация в программе</a>
+						<span class="ae-vam-podo ae-vam-podo__margin">А еще вам подойдут</span>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</section>
+
+
+
+
+
 <!-- *********************** programs.php *********************** -->
 
 	<?php require_once('footer.php'); ?>

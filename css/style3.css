@@ -139,8 +139,17 @@
   display: inline-block;
   margin-top: 40px; }
 
+.ae_margin {
+  padding-top: 40px; }
+
+.ae__margin4 {
+  margin-top: 53px; }
+
 .ae-menu__margin2 {
   display: inline-block; }
+
+.ae-menu_style:hover {
+  background: #e6f4ed; }
 
 /* ╨╝╨╡╨╜╤О ╨╛ ╨┐╤А╨╛╨┤╤Г╨║╤Ж╨╕╨╕ ╤Б╨╛╤Б╤В╨░╨▓*/
 /*╨║╨░╤А╤В╨╕╨╜╨║╨░ ╤И╨┐╨╕╨╜╨░╤В*/
@@ -218,6 +227,60 @@
   background: #c8db8c; }
 
 /*ae-ingrid*/
+/**/
+.ae-bold__margin {
+  margin-top: 48px;
+  margin-bottom: 2px; }
+
+.ae-bold {
+  display: block;
+  font-size: 18px;
+  line-height: 30px; }
+
+.ae-bold__margin2 {
+  margin-top: 40px;
+  margin-bottom: 23px; }
+
+.ae-bold__margin3 {
+  margin-top: 18px; }
+
+.ae-regular {
+  font-size: 16px;
+  line-height: 25px; }
+
+.ae__margin {
+  margin-top: 73px; }
+
+.ae__margin2 {
+  margin-top: 65px; }
+
+.ae-bold__margin2 {
+  margin-top: 43px;
+  margin-bottom: 2px; }
+
+.ae-bold__margin3 {
+  margin-top: 38px;
+  margin-bottom: 2px; }
+
+.ae-button2_color2 {
+  width: 455px;
+  height: 70px;
+  background-color: #c8db8c;
+  text-align: center; }
+
+.ae-button2__margin {
+  margin-top: 43px;
+  margin-bottom: 0px; }
+
+.ae-vam-podo {
+  font-family: "Myriad-Pro-Light-SemiExtended";
+  font-size: 24px; }
+
+.ae-vam-podo__margin {
+  display: block;
+  margin-top: 51px; }
+
+/**/
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */

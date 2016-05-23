@@ -195,8 +195,17 @@ to {left: 0px;}
     display: inline-block;
     margin-top: 40px;
 }
+.ae_margin {
+    padding-top: 40px;
+}
+.ae__margin4{
+    margin-top: 53px;
+}
 .ae-menu__margin2{
     display: inline-block;
+}
+.ae-menu_style:hover{
+    background: #e6f4ed;
 }
 /* меню о продукции состав*/
 
@@ -217,7 +226,12 @@ to {left: 0px;}
     width: 274px;
     height: 350px;
 }
+
 /*картинка шпинат*/
+
+
+
+
 
 
 /*ae-ingrid*/
@@ -297,6 +311,79 @@ to {left: 0px;}
     background: #c8db8c;
 }
 /*ae-ingrid*/
+
+/**/
+
+.ae-bold__margin{
+    margin-top: 48px;
+    margin-bottom: 2px;
+}
+
+.ae-bold{
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    //font-family: "";//
+}
+
+.ae-bold__margin2{
+    margin-top: 40px;
+    margin-bottom: 23px;
+}
+
+.ae-bold__margin3{
+    margin-top: 18px;
+}
+
+.ae-regular{
+    font-size: 16px;
+    line-height: 25px;
+    //display: inline-block;
+}
+
+.ae__margin {
+    margin-top: 73px;
+}
+
+.ae__margin2 {
+    margin-top: 65px;
+}
+
+.ae-bold__margin2{
+    margin-top: 43px;
+    margin-bottom: 2px;
+}
+
+.ae-bold__margin3{
+    margin-top: 38px;
+    margin-bottom: 2px;
+}
+
+.ae-button2_color2{
+    width: 455px;
+    height: 70px;
+    background-color: #c8db8c;
+    text-align: center;
+}
+.ae-button2__margin{
+    margin-top: 43px;
+    margin-bottom: 0px;
+}
+
+.ae-vam-podo{
+    font-family: "Myriad-Pro-Light-SemiExtended";
+    font-size: 24px;
+}
+
+.ae-vam-podo__margin{
+    display: block;
+    margin-top: 51px;
+}
+
+/**/
+
+
+
 
 // ******************** shpinat ********************
 

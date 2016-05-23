@@ -139,11 +139,20 @@
   display: inline-block;
   margin-top: 40px; }
 
-.ae_margin {
-  padding-top: 40px; }
+.ae__margin {
+  margin-top: 73px; }
+
+.ae__margin2 {
+  margin-top: 65px; }
+
+.ae__margin3 {
+  margin-top: 30px; }
 
 .ae__margin4 {
   margin-top: 53px; }
+
+.ae__margin5 {
+  padding-top: 40px; }
 
 .ae-menu__margin2 {
   display: inline-block; }
@@ -248,12 +257,6 @@
   font-size: 16px;
   line-height: 25px; }
 
-.ae__margin {
-  margin-top: 73px; }
-
-.ae__margin2 {
-  margin-top: 65px; }
-
 .ae-bold__margin2 {
   margin-top: 43px;
   margin-bottom: 2px; }
@@ -279,6 +282,21 @@
 .ae-vam-podo__margin {
   display: block;
   margin-top: 51px; }
+
+.span-option-cell_style {
+  height: 399px;
+  width: 100%;
+  border: 1px solid #f3f5f7;
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+
+.products-img1__margin {
+  margin: 53px 0 24px 0; }
+
+.ae_style {
+  box-shadow: 0 0 10px #f3f5f7;
+  height: 399px; }
 
 /**/
 /*==========  Desktop First Method  ==========*/

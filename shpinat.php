@@ -40,7 +40,7 @@
 	<section class="ae">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-lg-8 col-md-8 col-sm-8">
 					<a href="#" class="ae-link ae-link__margin"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Все продукты</a>
 					<h1>Суп со шпинатом</h1>
 					
@@ -59,7 +59,7 @@
 					
 					
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-4 col-sm-4">
 					<div class="ae-relative">
 						<img class="ae-absolute ae-img" src="img/soup.png" alt="">
 					</div>		
@@ -72,7 +72,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<ul class="ae_margin">
+					<ul class="ae__margin5">
 						<li class="ae-menu ae-menu__margin2">О продукте</li>
 						<li class="ae-menu ae-menu__margin2">Состав</li>
 						<li class="ae-menu ae-menu__margin2">Как применять</li>
@@ -117,22 +117,22 @@
 		</div>
 	</section>
 
-<section class="">
+	<section class="">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-offset-1 col-md-10 col-md-offset-1">
 					<span class="ae-bold ae-bold__margin">Состав</span>
 					<p class="ae-regular">Специально обработанный измельченный горох, мука кукурузная цельнозерновая, порошок шпината, 
-порошок крапивы, соль, фруктоза, специи, эмульгатор лецитин, регулятор кислотности лимонная кислота.</p>
+					порошок крапивы, соль, фруктоза, специи, эмульгатор лецитин, регулятор кислотности лимонная кислота.</p>
 				</div>
 			</div>
 				<div class="row">
 					<div class="col-md-offset-1 col-md-6">
 						<span class="ae-bold ae-bold__margin2">Пищевая ценность на 1 порцию (25 г продукта):</span>
 						<span class="ae-regular">белки . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 г;</span> <br>
-						<span class="ae-regular">жиры . . . . . . . . .  . . . . . . . . . . . . . . . . . . 0.5 г;</span> <br>
-						<span class="ae-regular">углеводы . . . . . . . . . . . . . . . . . . . . . . . 12 г;</span> <br>
-						<span class="ae-regular">пищевые волокна . . . . . . . . . . . . . . .3 г.</span> <br>
+						<span class="ae-regular">жиры . . . . . . . . . . . . . . . . . . . . . . . . . . . 0.5 г;</span> <br>
+						<span class="ae-regular">углеводы . . . . . . . . . . . . . . . . . . . . . . . . 12 г;</span> <br>
+						<span class="ae-regular">пищевые волокна . . . . . . . . . . . . . . . . . 3 г.</span> <br>
 						<span class="ae-bold ae-bold__margin3">Энергетическая ценность 1 порции:</span>
 						<span class="ae-regular">85 ккал/355 кДж.</span>
 					</div>
@@ -202,10 +202,10 @@
 				<div class="col-md-offset-1 col-md-10 col-md-offset-1">
 					<span class="ae-bold ae-bold__margin2">Анна 2015-10-19</span>
 					<p class="ae-regular">Сейчас ем суп со шпинатом. Честно признаюсь, выглядит он не ахти. Пришлось 5 минут себя настраивать на то, 
-чтобы его съесть... Но вкус вполне неплохой для такого продукта. Буду заказывать ещё.</p>
+					чтобы его съесть... Но вкус вполне неплохой для такого продукта. Буду заказывать ещё.</p>
 					<span class="ae-bold ae-bold__margin3">Фатима 2015-10-19</span>
 					<p class="ae-regular">Суп очень вкусный, а самое главное - полезный, с точки зрения здоровья! Вся зелень ощелачивает организм, 
-соответственно, мощнейшая профилактика старения организма!</p>
+					соответственно, мощнейшая профилактика старения организма!</p>
 					
 					<div class="ae-center">
 						<a class="ae-button2 ae-button2__margin ae-button2_color2" href="">регистрация в программе</a>
@@ -216,9 +216,34 @@
 		</div>
 	</section>
 
-
-
-
+	<section class="ae__margin3">
+		<div class="container">
+			<div class="row">
+				<div class="ae_style">
+					<div class="col-md-3 span-option-cell_style">
+						<img src="img/kasha.png" alt="" class="ae-products-img1 products-img1__margin">
+						<span class="products-span1">Концентрат напитка сухой</span>
+						<span class="products-span1">«КОКТЕЙЛЬ ЗАВТРАК»</span>
+					</div>
+					<div class="col-md-3 span-option-cell_style">
+						<img src="img/kasha2.png" alt="" class="ae-products-img1 products-img1__margin">
+						<span class="products-span1">Концентрат напитка сухой</span>
+						<span class="products-span1">«КОКТЕЙЛЬ ОБЕД»</span>
+					</div>
+					<div class="col-md-3 span-option-cell_style">
+						<img src="img/kasha3.png" alt="" class="ae-products-img1 products-img1__margin">
+						<span class="products-span1">Концентрат напитка сухой</span>
+						<span class="products-span1">«КОКТЕЙЛЬ УЖИН»</span>
+					</div>
+					<div class="col-md-3 span-option-cell_style">
+						<img src="img/kasha3.png" alt="" class="ae-products-img1 products-img1__margin">
+						<span class="products-span1">Концентрат напитка сухой</span>
+						<span class="products-span1">«КОКТЕЙЛЬ УЖИН»</span>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</section>
 
 <!-- *********************** programs.php *********************** -->
 

@@ -78,7 +78,8 @@
 .ae-span {
   color: #fff;
   font-size: 18px;
-  display: block; }
+  display: block;
+  text-align: center; }
 
 .ae-span__margin {
   margin-top: 2px; }
@@ -91,8 +92,10 @@
   font-size: 24px; }
 
 .ae-span2__margin {
-  display: table-cell;
-  vertical-align: middle; }
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  display: block; }
 
 /*╨║╨╜╨╛╨┐╨║╨░ ╨Ъ╤Г╨┐╨╕╤В╤М*/
 .ae-button {
@@ -100,7 +103,7 @@
   height: 40px;
   vertical-align: middle;
   text-align: center;
-  display: table-cell; }
+  display: none; }
 
 .ae-button__margin {
   padding-left: 15px; }
@@ -139,11 +142,20 @@
   display: inline-block;
   margin-top: 40px; }
 
-.ae_margin {
-  padding-top: 40px; }
+.ae__margin {
+  margin-top: 73px; }
+
+.ae__margin2 {
+  margin-top: 65px; }
+
+.ae__margin3 {
+  margin-top: 30px; }
 
 .ae__margin4 {
   margin-top: 53px; }
+
+.ae__margin5 {
+  padding-top: 40px; }
 
 .ae-menu__margin2 {
   display: inline-block; }
@@ -248,12 +260,6 @@
   font-size: 16px;
   line-height: 25px; }
 
-.ae__margin {
-  margin-top: 73px; }
-
-.ae__margin2 {
-  margin-top: 65px; }
-
 .ae-bold__margin2 {
   margin-top: 43px;
   margin-bottom: 2px; }
@@ -280,6 +286,21 @@
   display: block;
   margin-top: 51px; }
 
+.span-option-cell_style {
+  height: 399px;
+  width: 100%;
+  border: 1px solid #f3f5f7;
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+
+.products-img1__margin {
+  margin: 53px 0 24px 0; }
+
+.ae_style {
+  box-shadow: 0 0 10px #f3f5f7;
+  height: 399px; }
+
 /**/
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
@@ -289,6 +310,18 @@
 /* Custom, iPhone Retina */
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  .ae-button-xs {
+    display: block; }
+
+  .ae-span {
+    text-align: center; }
+
+  .ae-span2 {
+    text-align: center; }
+
+  h1 {
+    text-align: center; } }
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
   .bodyPad {
@@ -297,7 +330,23 @@
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .fab-hid-sm {
-    display: none; } }
+    display: none; }
+
+  .ae-button {
+    display: table-cell; }
+
+  .ae-button-xs {
+    display: none; }
+
+  .ae-span {
+    text-align: left; }
+
+  .ae-span2 {
+    display: table-cell;
+    text-align: left; }
+
+  h1 {
+    text-align: left; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .fab-vis-md {

@@ -232,15 +232,13 @@
 }
 .ac-list__item-products{
     display: block;
-    padding: 15px 10px;
-    max-width: 277px;
     font-family: "MyriadPro-Cond";
     font-size: 21px;
     color: #fff;
-    margin-top: 15px;
     text-transform: uppercase;
     cursor: pointer;
     text-align: center;
+    margin: 10px 10px 0px 10px;
     border: 1px solid #458ECE;
 }
 .ac-list__item-products:hover{
@@ -250,13 +248,17 @@
 .ac-list__item-products-active{
     background-color: #fff;
 }
+.no-gutter>[class*='col-']{
+    padding-left: 0;
+    padding-right: 0;
+}
 .span-option-row{
     text-align: center;
 }
 .span-option-cell{
     border: 1px solid #f3f5f7;
     margin-top: 38px;
-    padding: 84px 0px 75px 0px;
+    padding: 42px 0px 35px 0px;
 }
 .span-option{
     margin-top: 84px;
@@ -325,7 +327,7 @@
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
     .header_middle-span1{
-        margin-top: 107px;
+        margin-top: 50px;
     }
     .header_middle-span2{
         margin-top: 10px;
@@ -441,15 +443,23 @@
         width: 439px;
         height: 386px;
         margin-top: 56px;
-        // margin: 56px 0px 0px 45px;
     }
     .ac-list-products{
-        margin-top: -104px;
+        margin-top: -70px;
+        vertical-align: middle;
     }
     .ac-list__item-products{
         display: inline-block;
-        max-width: 215px;
+        width: 100%;
+        min-height: 61px;
         border: none;
+    }
+    .no-gutter>[class*='col-']{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .span-option-cell{
+        padding: 84px 0px 75px 0px;
     }
 }
 

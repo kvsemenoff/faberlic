@@ -48,19 +48,33 @@
 				</div>
 				<div class="col-md-5 col-sm-6 col-xs-12">
 					<div class="header_middle-right">
-						<img src="img/products-women.png" alt="products-women" class="header_middle-women header_middle-women__products">
+						<img src="img/products-women.png" alt="products-women" class="header_middle-women__products">
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<ul class="ac-list-products">
-						<li class="ac-list__item-products">EATLESS И PHYTOX</li>
-						<li class="ac-list__item-products">Каши</li>
-						<li class="ac-list__item-products">СУПЫ</li>
-						<li class="ac-list__item-products ac-list__item-active-products">Коктейли<br>Завтрак, Обед, Ужин</li>
-						<li class="ac-list__item-products">Напитки (Кисели,<br>кофе, какао) </li>
-						<li class="ac-list__item-products">Коктейли белковые и на молочной сыворотке</li>
+						<div class="row no-gutter">
+							<div class="col-md-1 col-sm-4 col-xs-12">
+								<li class="ac-list__item-products">EATLESS И PHYTOX</li>
+							</div>
+							<div class="col-md-1 col-sm-4 col-xs-12">
+								<li class="ac-list__item-products">Каши</li>
+							</div>
+							<div class="col-md-1 col-sm-4 col-xs-12">
+								<li class="ac-list__item-products">СУПЫ</li>
+							</div>
+							<div class="col-md-2 col-sm-4 col-xs-12">
+								<li class="ac-list__item-products ac-list__item-active-products">Коктейли<br>Завтрак, Обед, Ужин</li>
+							</div>
+							<div class="col-md-2 col-sm-4 col-xs-12">
+								<li class="ac-list__item-products">Напитки (Кисели,<br>кофе, какао) </li>
+							</div>
+							<div class="col-md-3 col-sm-4 col-xs-12">
+								<li class="ac-list__item-products">Коктейли белковые и на молочной сыворотке</li>
+							</div>
+						</div>
 					</ul>
 				</div>
 			</div>

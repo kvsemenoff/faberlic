@@ -5,8 +5,6 @@
     padding-top: 32px;
     position: relative;
 }
-.header_middle-left{
-}
 .header_middle-right{
     width: 100%;
 }
@@ -32,8 +30,10 @@
     font-family: "Myriad-Pro-Light-SemiExtended";
     font-size: 18px;
     color: #fff;
-    text-align: center;
+    text-align: justify;
     margin: 30px 0px;
+    padding: 0px 15px;
+
 }
 .header_middle-span3__programs{
     font-family: "MyriadPro-Regular";
@@ -46,18 +46,17 @@
 
 // *********************** programs.php ***********************
 .program-cell{
-    width: 33.3%;
-    float: left;
+    width: 100%;
     background-color: #CC7CA7;
     height: 500px;
     text-align: center;
 }
 .program-cell1{
-    width: 33.3%;
+    width: 100%;
     background-color: #B4D078;
 }
 .program-cell2{
-    width: 33.3%;
+    width: 100%;
     background-color: #FFCB5C;
 }
 .program_item{
@@ -116,19 +115,20 @@
     display: block;
     position: absolute;
     font-family: "MyriadPro-Regular";
-    font-size: 24.5px;
+    font-size: 20px;
     text-transform: uppercase;
     color: #fff;
-    padding: 25px 40px 22px 29px;
+    padding: 10px 0px;
     bottom: -25px;
     left: 50%;
     transform: translate(-50%, 0);
     background-color: #003D58;
+    text-align: center;
 }
 .program_item-link-icon{
     display: inline-block;
     color: #fff;
-    padding-left: 10px;
+    padding-left: 3px;
 }
 // *********************** ac-additional-block ***********************
 .ac-additional-block{
@@ -152,22 +152,22 @@
     font-size: 24px;
     color: #7CC5CF;
     margin-top: 15px;
+    cursor: pointer;
+}
+.ac-list__item:hover{
+    background-color: #E6F3F5;
 }
 .ac-list__item-active{
-    background-color: #E6F3F5;
+    background-color: #fff;
 }
 .ac-row-block{
     background-color: #E6F3F5;
 }
 .ac-circle-left{
-    display: inline-block;
-    padding-top: 140px;
-    padding-left: 100px;
+    display: none;
 }
 .ac-circle-right{
-    display: inline-block;
-    padding-top: 140px;
-    padding-left: 25px;
+    display: none;
 }
 .ac-row-block2{
     padding: 40px 0px;
@@ -181,23 +181,52 @@
 }
 .ac-row_link{
     display: inline-block;
-    width: 360px;
-    height: 55px;
-    padding: 18px 0px;
+    width: 210px;
+    height: 60px;
+    padding: 10px 0px;
     border: 1px solid #7CC5CF;
     margin-top: 15px;
     margin-right: 10px;
     font-family: "MyriadPro-Regular";
     font-size: 14px;
     text-align: center;
-
+    color: #808586;
 }
-
-
-
-
-
-
+.ac-row_link:hover{
+    background-color: #14b2cc;
+    color: #fff;
+}
+//***********************************************
+.ac-block1{
+    padding-top: 10px;
+}
+.program_item-pinklink{
+    display: inline-block;
+    font-family: "MyriadPro-Regular";
+    font-size: 24.5px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    width: 250px;
+    height: 60px;
+    background-color: #CB7CA6;
+}
+.header_middle-span4__programs{
+    font-family: "MyriadPro-Regular";
+    font-size: 16px;
+    display: block;
+    color: #515455;
+    text-align: center;
+    margin-top: 43px;
+}
+.ac-block2{
+    padding: 45px 0px 50px 0px;
+    text-align: center;
+}
+.ac-span{
+    margin-bottom: 30px;
+}
 
 
 // *********************** ac-additional-block ***********************
@@ -256,10 +285,29 @@
         margin-top: 10px;
 
     }
+    .program_item-link{
+        font-size: 24.5px;
+        padding: 15px 15px;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+    .header_middle-span3{
+        text-align: center;
+        padding: 0px;
+
+    }
+    .program-cell{
+        float: left;
+        width: 33.3%;
+    }
+    .program-cell1{
+        width: 33.3%;
+    }
+    .program-cell2{
+        width: 33.3%;
+    }
     .header_middle-women{
         width: 352px;
         height: 556px;
@@ -290,6 +338,39 @@
         font-size: 18px;
         text-align: left;
         margin: 45px 0px 95px 0px;
+    }
+    .program_item-link{
+        font-size: 24.5px;
+        padding: 25px 40px 22px 29px;
+    }
+    .program_item-link-icon{
+        padding-left: 10px;
+    }
+    .ac-list__item-active{
+        background-color: #E6F3F5;
+    }
+    .ac-circle-left{
+        display: inline-block;
+        padding-top: 140px;
+        padding-left: 100px;
+    }
+    .ac-circle-right{
+        display: inline-block;
+        padding-top: 140px;
+        padding-left: 25px;
+    }
+    .ac-row_link{
+        width: 360px;
+        height: 55px;
+        padding: 18px 0px;
+    }
+    .ac-row_link:hover{
+        background: #14b2cc url(../img/true-circle.png) 20px 19px no-repeat;
+    }
+    .program_item-pinklink{
+        width: 335px;
+        height: 83px;
+        line-height: 83px;
     }
 }
 

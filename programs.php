@@ -85,24 +85,42 @@
 			<div class="col-md-2 ac-row-block1">
 				<a href="#" class="ac-circle-left"><img src="img/arrow-in-circle-left.png" alt="arrow-in-circle-left"></a>
 			</div>
-			<div class="col-md-8 ac-row-block2">
+			<div class="col-md-8 col-sm-12 col-xs-12 ac-row-block2">
 				<span class="ac-row_span">Как вы оцениваете ваш вес?</span>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-12 col-xs-12">
 					<a href="#" class="ac-row_link">Я вешу намного больше, чем хотелось бы</a>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-12 col-xs-12">
 					<a href="#" class="ac-row_link">Я вешу немного больше, чем хотелось бы </a>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-12 col-xs-12">
 					<a href="#" class="ac-row_link">Меня устраивает свой вес </a>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-12 col-xs-12">
 					<a href="#" class="ac-row_link">Я вешу меньше, чем хотелось бы</a>
 				</div>	
 			</div>
 			<div class="col-md-2 ac-row-block3">
 				<a href="#" class="ac-circle-right"><img src="img/arrow-in-circle-right.png" alt="arrow-in-circle-right"></a>
 			</div>
+		</div>
+	</div>
+</section>
+
+<section class="ac-block1">
+	<div class="container">
+		<div class="row ac-row-block">
+			<div class="col-md-2 ac-row-block1">
+				<a href="#" class="ac-circle-left"><img src="img/arrow-in-circle-left.png" alt="arrow-in-circle-left"></a>
+			</div>
+			<div class="col-md-8 ac-block2">
+				<span class="ac-row_span ac-span">Мы рекомендуем вам попробовать программу: </span>
+				<a href="#" class="program_item-pinklink">Перезагрузка</a>
+				<p class="header_middle-span4__programs">Вероятнее всего, у вас есть лишний вес, от которого вы хотели бы избавиться. И начать необходимо с перестройки вашего рациона без стресса для организма – 5-разовое питание полезными блюдами вместо вредных жиров и сахара. Постепенно лишние килограммы уйдут, а самочувствие улучшится. А главное, появится привычка правильно питаться, так что проблема лишнего веса навсегда останется в прошлом.</p>
+			</div>
+			<div class="col-md-2 ac-row-block1">
+				<a href="#" class="ac-circle-right"><img src="img/arrow-in-circle-right.png" alt="arrow-in-circle-right"></a>
+			</div>	
 		</div>
 	</div>
 </section>

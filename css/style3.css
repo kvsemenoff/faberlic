@@ -77,7 +77,7 @@
 
 .ae-span {
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
   display: block;
   text-align: center; }
 
@@ -87,13 +87,18 @@
 .ae-span__margin2 {
   margin-bottom: 16px; }
 
+.ae-span_xs {
+  font-size: 18px; }
+
+h1 {
+  font-size: 36px !important;
+  text-align: center; }
+
 .ae-span2 {
   color: #fff;
   font-size: 24px; }
 
 .ae-span2__margin {
-  display: block;
-  vertical-align: middle;
   text-align: center;
   display: block; }
 
@@ -101,21 +106,27 @@
 .ae-button {
   width: 175px;
   height: 40px;
-  vertical-align: middle;
+  line-height: 40px;
   text-align: center;
-  display: none; }
+  margin: 0 auto; }
 
 .ae-button__margin {
-  padding-left: 15px; }
+  margin-top: 13px; }
 
 .ae-button__button {
   color: #f22e89;
   background: #fff;
   width: 175px;
   height: 40px;
-  vertical-align: middle;
+  line-height: 40px;
   text-align: center;
-  display: table-cell; }
+  display: inline-block; }
+
+.ae-button-xs {
+  display: block; }
+
+.ae-button-lg {
+  display: none; }
 
 /*╨║╨╜╨╛╨┐╨║╨░ ╨Ъ╤Г╨┐╨╕╤В╤М*/
 .ae-span__margin3 {
@@ -154,11 +165,11 @@
 .ae__margin4 {
   margin-top: 53px; }
 
-.ae__margin5 {
-  padding-top: 40px; }
+.ae__margin6 {
+  margin-top: 63px; }
 
 .ae-menu__margin2 {
-  display: inline-block; }
+  display: block; }
 
 .ae-menu_style:hover {
   background: #e6f4ed; }
@@ -168,11 +179,13 @@
 .ae-relative {
   position: relative;
   width: 100%;
-  height: 100%; }
+  height: 369px; }
 
 .ae-absolute {
   position: absolute;
-  top: 81px; }
+  left: 50%;
+  transform: translate(-47%, 0);
+  top: 38px; }
 
 .ae-img {
   width: 274px;
@@ -222,7 +235,7 @@
   display: block; }
 
 .ae-button2 {
-  width: 310px;
+  width: 288px;
   height: 70px;
   background: #b87ba4;
   display: inline-block;
@@ -234,6 +247,9 @@
 
 .ae-button2__margin {
   margin: 31px 0 63px 0; }
+
+.ae-button2__margin2 {
+  margin-top: 22px; }
 
 .ae-button2_color {
   background: #c8db8c; }
@@ -298,8 +314,9 @@
   margin: 53px 0 24px 0; }
 
 .ae_style {
-  box-shadow: 0 0 10px #f3f5f7;
-  height: 399px; }
+  box-shadow: 3px 3px 10px #d6dee3;
+  height: 399px;
+  margin-bottom: 10px; }
 
 /**/
 /*==========  Desktop First Method  ==========*/
@@ -311,49 +328,84 @@
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
-  .ae-button-xs {
-    display: block; }
-
-  .ae-span {
-    text-align: center; }
-
   .ae-span2 {
-    text-align: center; }
-
-  h1 {
     text-align: center; } }
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
   .bodyPad {
     animation: shadow  1s 1 ease-in-out;
-    padding-left: 201px; } }
+    padding-left: 201px; }
+
+  .ae-span {
+    font-size: 16px; }
+
+  h1 {
+    font-size: 48px !important; }
+
+  .ae-span_xs {
+    font-size: 18px; }
+
+  .ae-button2 {
+    width: 220px; } }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .fab-hid-sm {
     display: none; }
 
-  .ae-button {
-    display: table-cell; }
+  .ae-span {
+    text-align: left;
+    font-size: 18px; }
+
+  h1 {
+    text-align: left; }
 
   .ae-button-xs {
     display: none; }
 
-  .ae-span {
-    text-align: left; }
+  .ae-span2__margin {
+    display: table-cell; }
 
-  .ae-span2 {
-    display: table-cell;
-    text-align: left; }
+  .ae-button-lg {
+    display: table-cell; }
 
-  h1 {
-    text-align: left; } }
+  .ae-absolute {
+    left: -20px;
+    transform: translate(0, 0); }
+
+  .ae-button__margin {
+    padding-left: 15px;
+    margin-top: 0; }
+
+  .ae__margin5 {
+    padding-top: 40px; }
+
+  .ae__margin6 {
+    margin-top: 0px; }
+
+  .ae-relative {
+    position: relative;
+    width: 100%;
+    height: 332px;
+    top: 43px; }
+
+  .ae-menu__margin2 {
+    display: inline-block; }
+
+  .ae-button2 {
+    width: 310px; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .fab-vis-md {
     display: inline; }
 
   .header-top__logo {
-    padding-left: 0; } }
+    padding-left: 0; }
+
+  .ae-absolute {
+    left: 0px; }
+
+  h1 {
+    font-size: 72px !important; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   .menu-list-unpressed {

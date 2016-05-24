@@ -40,18 +40,18 @@
 	<section class="ae">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8 col-md-8 col-sm-8">
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 					<a href="#" class="ae-link ae-link__margin"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Все продукты</a>
 					<h1>Суп со шпинатом</h1>
 					
 					<span class="ae-span ae-span__margin">Продукт моментального приготовления</span>
-					<span class="ae-span ae-span__margin ae-span__margin2">Вес: 25 гр.</span>
+					<span class="ae-span ae-span_xs ae-span__margin ae-span__margin2">Вес: 25 гр.</span>
 					
 					<div class="ae-span2__margin">
 						<span class="ae-span2">Базовая цена: 49 руб.</span>
 					</div>
 					
-					<div class="ae-button__margin ae-button">
+					<div class="ae-button__margin ae-button ae-button-lg">
 						<a href="#" class="ae-button__button">Купить</a>
 					</div>
 					
@@ -62,7 +62,7 @@
 					</div>
 					
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 					<div class="ae-relative">
 						<img class="ae-absolute ae-img" src="img/soup.png" alt="">
 					</div>		
@@ -71,10 +71,10 @@
 		</div>
 	</section>
 	
-	<section class="ae">
+	<section class="ae ae__margin6">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<ul class="ae__margin5">
 						<li class="ae-menu ae-menu__margin2">О продукте</li>
 						<li class="ae-menu ae-menu__margin2">Состав</li>
@@ -89,7 +89,11 @@
 <section class="">
 	<div class="container">
 		<div class="row">
-			<div class="ae-center col-md-offset-2 col-md-8 col-md-offset-2">
+			<div class="ae-center
+ 			 col-xs-offset-2 col-xs-8 col-xs-offset-2 
+			 col-sm-offset-2 col-sm-8 col-sm-offset-2 
+			 col-md-offset-2 col-md-8 col-md-offset-2 
+			 col-lg-offset-2 col-lg-8 col-lg-offset-2 ">
 				<span class="ae-ingrid-sostav ae-ingrid-sostav__margin">В состав супа вошли такие уникальные растительные компоненты, как шпинат и крапива.</span>
 				<img class="ae-shpinat__margin" src="img/shpinat.png" alt="">
 				<h2 class="ae-word__margin ae-word">-шпинат-</h2>
@@ -98,8 +102,12 @@
 				<h2 class="ae-word__margin ae-word">-Крапива-</h2>
 				<p class="ae-par__margin2 ae-par">Крапива, улучшая в целом протекание всех энергетических процессов, оказывает стимулирующее действие на углеводный и белковый обмен, поэтому ее так часто рекомендуют при хронических заболеваниях, когда заметно снижается общая сопротивляемость организма. Крапива содержит секретин, который нормализует обмен веществ, стимулирует образование инсулина и тем самым ведёт к снижению количества сахара в крови, что необходимо людям, страдающим сахарным диабетом.</p>
 				<span class="ae-inter__margin ae-inter">Вход в программу:</span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="ae-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<a class="ae-button2 ae-button2__margin" href="">перезагрузка</a>
-				<a class="ae-button2 ae-button2_color" href="">ускорение</a>
+				<a class="ae-button2 ae-button2__margin2 ae-button2_color" href="">ускорение</a>
 			</div>
 		</div>		
 	</div>

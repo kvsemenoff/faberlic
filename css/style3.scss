@@ -14,8 +14,25 @@ to {left: 0px;}
 }
     
 .bodyPad {
+   // overflow: hidden;
+    box-sizing: border-box !important;
+    .container{
+        box-sizing: border-box !important;
+        //outline: 10px solid #00f;
+        max-width: 100%
+    }
+    .row{
+        box-sizing: border-box !important;
+        //outline: 1px solid #000;
 
+    }
 }
+
+.container{
+        box-sizing: border-box !important;
+        //outline: 10px solid #00f;
+        max-width: 100%
+    }
 
 .header-top {
     background: #f22e89;
@@ -254,6 +271,7 @@ h1{
     top: 38px;
 }
 
+
 .ae-img{
     width: 274px;
     height: 350px;
@@ -335,6 +353,8 @@ h1{
     font-size: 24.5px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-size: 18px;
+
 }
 .ae-button2__margin{
     margin: 31px 0 63px 0;
@@ -358,7 +378,7 @@ h1{
     display: block;
     font-size: 18px;
     line-height: 30px;
-    //font-family: "";//
+    font-family: "MyriadPro-SemiboldSemiExt";
 }
 
 .ae-bold__margin2{
@@ -389,10 +409,11 @@ h1{
 }
 
 .ae-button2_color2{
-    width: 455px;
+    width: 100%;
     height: 70px;
     background-color: #c8db8c;
     text-align: center;
+    font-size: 16px;
 }
 .ae-button2__margin{
     margin-top: 43px;
@@ -428,7 +449,9 @@ h1{
      margin-bottom: 10px; //убрать
 }
 
-
+.ae-dispnone{
+    display: none;
+}
 /**/
 
 
@@ -502,6 +525,11 @@ h1{
     }
     .ae-button2 {
         width: 220px;
+        
+    }
+    .ae-button2_color2{
+        width: 450px;
+        font-size: 24px;
     }
 }
 
@@ -555,6 +583,16 @@ h1{
 }
 .ae-button2 {
     width: 310px;
+    font-size: 24px;
+}
+.ae-button2_color2{
+    width: 455px;
+}
+.ae-absolute-temp{
+    position: absolute;
+    left: 50%;
+    transform: translate(-47%,0);
+    top: 38px;
 }
 }
 

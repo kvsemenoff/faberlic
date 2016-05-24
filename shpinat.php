@@ -40,7 +40,7 @@
 	<section class="ae">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+				<div id="imagehide1" class="col-md-8 col-lg-8 ">
 					<a href="#" class="ae-link ae-link__margin"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Все продукты</a>
 					<h1>Суп со шпинатом</h1>
 					
@@ -62,7 +62,7 @@
 					</div>
 					
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div id="imagehide2" class="col-md-4 col-lg-4">
 					<div class="ae-relative">
 						<img class="ae-absolute ae-img" src="img/soup.png" alt="">
 					</div>		
@@ -90,10 +90,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="ae-center
- 			 col-xs-offset-2 col-xs-8 col-xs-offset-2 
-			 col-sm-offset-2 col-sm-8 col-sm-offset-2 
+ 			 				 col-xs-12 
+			 col-sm-offset-1 col-sm-10 col-sm-offset-1 
 			 col-md-offset-2 col-md-8 col-md-offset-2 
-			 col-lg-offset-2 col-lg-8 col-lg-offset-2 ">
+			 col-lg-offset-3 col-lg-6 col-lg-offset-3 ">
 				<span class="ae-ingrid-sostav ae-ingrid-sostav__margin">В состав супа вошли такие уникальные растительные компоненты, как шпинат и крапива.</span>
 				<img class="ae-shpinat__margin" src="img/shpinat.png" alt="">
 				<h2 class="ae-word__margin ae-word">-шпинат-</h2>
@@ -140,10 +140,10 @@
 				<div class="row">
 					<div class="col-md-offset-1 col-md-6">
 						<span class="ae-bold ae-bold__margin2">Пищевая ценность на 1 порцию (25 г продукта):</span>
-						<span class="ae-regular">белки . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 г;</span> <br>
-						<span class="ae-regular">жиры . . . . . . . . . . . . . . . . . . . . . . . . . . . 0.5 г;</span> <br>
-						<span class="ae-regular">углеводы . . . . . . . . . . . . . . . . . . . . . . . . 12 г;</span> <br>
-						<span class="ae-regular">пищевые волокна . . . . . . . . . . . . . . . . . 3 г.</span> <br>
+						<span class="ae-regular">белки . . . . . . . . . . . . . . . . . . . . . . . 7 г;</span> <br>
+						<span class="ae-regular">жиры . . . . . . . . . . . . . . . . . . . . . . . 0.5 г;</span> <br>
+						<span class="ae-regular">углеводы . . . . . . . . . . . . . . . . . . . . 12 г;</span> <br>
+						<span class="ae-regular">пищевые волокна . . . . . . . . . . . . . 3 г.</span> <br>
 						<span class="ae-bold ae-bold__margin3">Энергетическая ценность 1 порции:</span>
 						<span class="ae-regular">85 ккал/355 кДж.</span>
 					</div>
@@ -231,7 +231,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="ae_style">
-					<div class="col-md-3 span-option-cell_style">
+					<div class="col-lg-3 col-md-3 col-sm-4 span-option-cell_style">
 						<img src="img/kasha.png" alt="" class="ae-products-img1 products-img1__margin">
 						<span class="products-span1">Концентрат напитка сухой</span>
 						<span class="products-span1">«КОКТЕЙЛЬ ЗАВТРАК»</span>

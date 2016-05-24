@@ -5,6 +5,13 @@ $(document).ready(function(){
         $('.header-top__menu-unpressed').toggleClass('header-top__menu-pressed');
         $('.header-top__menu-unpressed ul').toggleClass('menu-list-pressed');
         $('body').toggleClass('bodyPad');
+
+        
+        $('#imagehide1').toggleClass('col-xs-12');
+        $('#imagehide2').toggleClass('col-xs-12');
+        //$('span-option-cell_style:last-child').toggleClass('ae-dispnone');
+        
+
         
     });
 

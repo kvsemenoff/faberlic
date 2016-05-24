@@ -21,6 +21,5 @@
 					<a href="#" class="header-top__login">РЕГИСТРАЦИЯ <span class="fab-hid-sm fab-vis-md">В ПРОГРАММЕ</span></a>
 				</div>
 			</div>
-			<dic class="cl"></dic><dic class="cl"></dic>
 		</div>
 </section>

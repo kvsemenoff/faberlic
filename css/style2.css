@@ -220,24 +220,40 @@
   margin-top: 30px; }
 
 .ac-list__item-products {
-  display: block;
-  padding: 15px 10px;
-  max-width: 277px;
-  font-family: "MyriadPro-Cond";
-  font-size: 21px;
-  color: #fff;
-  margin-top: 15px;
-  text-transform: uppercase;
-  cursor: pointer;
+  display: inline-block;
+  height: 61px;
+  line-height: 61px;
+  border: none;
+  padding: 0px 20px;
+  width: 100%;
+  max-width: 100%;
   text-align: center;
-  border: 1px solid #458ECE; }
+  margin-left: -.36em; }
+  .ac-list__item-products span {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+    text-align: center;
+    font-family: "MyriadPro-Cond";
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase; }
 
 .ac-list__item-products:hover {
-  background-color: #fff;
+  background-color: #fff; }
+
+.ac-list__item-products:hover > span {
   color: #000; }
 
-.ac-list__item-products-active {
+.ac-list-products .active {
   background-color: #fff; }
+
+.ac-list-products .active > span {
+  color: #000; }
+
+.no-gutter > [class*='col-'] {
+  padding-left: 0;
+  padding-right: 0; }
 
 .span-option-row {
   text-align: center; }
@@ -245,7 +261,7 @@
 .span-option-cell {
   border: 1px solid #f3f5f7;
   margin-top: 38px;
-  padding: 84px 0px 75px 0px; }
+  padding: 42px 0px 35px 0px; }
 
 .span-option {
   margin-top: 84px; }
@@ -281,7 +297,7 @@
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .header_middle-span1 {
-    margin-top: 107px; }
+    margin-top: 50px; }
 
   .header_middle-span2 {
     margin-top: 10px; }
@@ -291,7 +307,11 @@
 
   .program_item-link {
     font-size: 24.5px;
-    padding: 15px 15px; } }
+    padding: 15px 15px; }
+
+  .ac-list__item-products {
+    width: 100%;
+    max-width: 50%; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .header_middle-span3 {
@@ -393,12 +413,19 @@
     margin-top: 56px; }
 
   .ac-list-products {
-    margin-top: -104px; }
+    margin-top: -70px;
+    vertical-align: middle; }
 
   .ac-list__item-products {
-    display: inline-block;
-    max-width: 215px;
-    border: none; } }
+    width: 100%;
+    max-width: 182px; }
+
+  .no-gutter > [class*='col-'] {
+    padding-left: 0;
+    padding-right: 0; }
+
+  .span-option-cell {
+    padding: 84px 0px 75px 0px; } }
 /* Large Devices, Wide Screens */
 
 /*# sourceMappingURL=style2.css.map */

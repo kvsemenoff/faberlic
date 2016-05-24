@@ -40,18 +40,18 @@
 	<section class="ae">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8 col-md-8 col-sm-8">
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 					<a href="#" class="ae-link ae-link__margin"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Все продукты</a>
 					<h1>Суп со шпинатом</h1>
 					
 					<span class="ae-span ae-span__margin">Продукт моментального приготовления</span>
-					<span class="ae-span ae-span__margin ae-span__margin2">Вес: 25 гр.</span>
+					<span class="ae-span ae-span_xs ae-span__margin ae-span__margin2">Вес: 25 гр.</span>
 					
 					<div class="ae-span2__margin">
 						<span class="ae-span2">Базовая цена: 49 руб.</span>
 					</div>
 					
-					<div class="ae-button__margin ae-button">
+					<div class="ae-button__margin ae-button ae-button-lg">
 						<a href="#" class="ae-button__button">Купить</a>
 					</div>
 					
@@ -62,7 +62,7 @@
 					</div>
 					
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 					<div class="ae-relative">
 						<img class="ae-absolute ae-img" src="img/soup.png" alt="">
 					</div>		
@@ -71,10 +71,10 @@
 		</div>
 	</section>
 	
-	<section class="ae">
+	<section class="ae ae__margin6">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<ul class="ae__margin5">
 						<li class="ae-menu ae-menu__margin2">О продукте</li>
 						<li class="ae-menu ae-menu__margin2">Состав</li>

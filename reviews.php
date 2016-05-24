@@ -43,12 +43,12 @@
 				<div class="col-md-7 col-sm-6 col-xs-12">
 					<div class="header_middle-left">
 						<span class="header_middle-span1 header_middle-span1__programs">Полезные советы</span>
-						<span class="header_middle-span3 header_middle-span3__programs">В основе любой программы – базовые принципы сбалансированного питания</span>
+						<span class="header_middle-span3 header_middle-span3__soveti">В основе любой программы – базовые принципы сбалансированного питания</span>
 					</div>
 				</div>
 				<div class="col-md-5 col-sm-6 col-xs-12">
 					<div class="header_middle-right">
-						<img src="img/soveti-women.png" alt="program-girl-top" class="header_middle-women header_middle-women__programs">
+						<img src="img/soveti-women.png" alt="program-girl-top" class="header_middle-women header_middle-women__soveti">
 					</div>
 				</div>
 			</div>
@@ -57,14 +57,39 @@
 	<section class="soveti_middle">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-sm-6 col-xs-12 span-option-cell">
-					<img src="img/soveti-img1.png" alt="soveti-img1">
-					<span class="ac-soveti-span-title">- водный баланс -</span>
-					<span class="ac-soveti-span">Вес указанный в анкете : 115 кг</span>
-					<span class="ac-soveti-span">Последний вес (по дневнику ): 98 кг</span>
-					<p class="ac-soveti-span">Доброго времени суток хотелось поблагодарить за удивительную программу которая помогает измениться, очень многие моменты  продуманны от каш из льна до удивительных продуктов как итлес и фитокс. </p>
-					<a href="#" class="ac-soveti-link"><span class="ac-soveti-span"><span class="ac-soveti-img"></span>Читать подробнее</span></a>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="ac-soveti-cell ac-rev-cell">
+						<img src="img/soveti-img1.png" alt="soveti-img1" class="ac-soveti-img">
+						<span class="ac-soveti-span-title">-Зандер Галина Сергеевна-</span>
+						<span class="ac-soveti-span">Вес указанный в анкете : 115 кг</span>
+						<span class="ac-soveti-span1">Последний вес (по дневнику ): 98 кг</span>
+						<span class="ac-soveti-span2">Разница : 8 кг</span>
+						<p class="rev-text1">Доброго времени суток хотелось поблагодарить за удивительную программу которая помогает измениться, очень многие моменты  продуманны от каш из льна до удивительных продуктов как итлес и фитокс.</p>
+						<a href="#" class="ac-rev_link"><span class="rev-text"><span class="rev-img"></span>Читать подробнее</span></a>
+
+					</div>
 				</div>
+				<!-- <div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="ac-soveti-cell">
+						<img src="img/soveti-img2.png" alt="soveti-img2" class="ac-soveti-img">
+						<span class="ac-soveti-span-title">- режим питания -</span>
+						<span class="ac-soveti-span">Питаться нужно не менее 5 раз в день, но небольшими порциями.</span>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="ac-soveti-cell">
+						<img src="img/soveti-img3.png" alt="soveti-img3" class="ac-soveti-img">
+						<span class="ac-soveti-span-title">- Сбалансированный рацион -</span>
+						<p class="ac-soveti-span">Исключить: газированные сладкие напитки, фаст-фуд, жирные полуфабрикаты и выпечку. Включить: хотя бы в один прием пищи продукты, богатые белком и пищевыми волокнами (например, свежие овощи или вареная куриная грудка).</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="ac-soveti-cell">
+						<img src="img/soveti-img4.png" alt="soveti-img4" class="ac-soveti-img">
+						<span class="ac-soveti-span-title">- физические нагрузки -</span>
+						<p class="ac-soveti-span">Для достижения максимальной эффективности Программы не забывайте про физическую нагрузку – постарайтесь 2-3 раза в неделю заниматься в тренажерном зале или ходить в бассейн, или хотя бы начинайте каждое утро с простой зарядки или не менее 30 минут ходите пешком.</p>
+					</div>
+				</div> -->
 			</div>
 		</div>
 	</section>

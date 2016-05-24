@@ -89,7 +89,11 @@
 <section class="">
 	<div class="container">
 		<div class="row">
-			<div class="ae-center col-md-offset-2 col-md-8 col-md-offset-2">
+			<div class="ae-center
+ 			 col-xs-offset-2 col-xs-8 col-xs-offset-2 
+			 col-sm-offset-2 col-sm-8 col-sm-offset-2 
+			 col-md-offset-2 col-md-8 col-md-offset-2 
+			 col-lg-offset-2 col-lg-8 col-lg-offset-2 ">
 				<span class="ae-ingrid-sostav ae-ingrid-sostav__margin">В состав супа вошли такие уникальные растительные компоненты, как шпинат и крапива.</span>
 				<img class="ae-shpinat__margin" src="img/shpinat.png" alt="">
 				<h2 class="ae-word__margin ae-word">-шпинат-</h2>
@@ -98,8 +102,12 @@
 				<h2 class="ae-word__margin ae-word">-Крапива-</h2>
 				<p class="ae-par__margin2 ae-par">Крапива, улучшая в целом протекание всех энергетических процессов, оказывает стимулирующее действие на углеводный и белковый обмен, поэтому ее так часто рекомендуют при хронических заболеваниях, когда заметно снижается общая сопротивляемость организма. Крапива содержит секретин, который нормализует обмен веществ, стимулирует образование инсулина и тем самым ведёт к снижению количества сахара в крови, что необходимо людям, страдающим сахарным диабетом.</p>
 				<span class="ae-inter__margin ae-inter">Вход в программу:</span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="ae-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<a class="ae-button2 ae-button2__margin" href="">перезагрузка</a>
-				<a class="ae-button2 ae-button2_color" href="">ускорение</a>
+				<a class="ae-button2 ae-button2__margin2 ae-button2_color" href="">ускорение</a>
 			</div>
 		</div>		
 	</div>

@@ -232,7 +232,7 @@ h1{
     margin-top: 63px;
 }
 .ae-menu__margin2{
-    display: inline-block;
+    display: block;
 }
 .ae-menu_style:hover{
     background: #e6f4ed;
@@ -326,7 +326,7 @@ h1{
 
 
 .ae-button2 {
-    width: 310px;
+    width: 288px;//310px;
     height: 70px;
     background: #b87ba4;
     display: inline-block;
@@ -338,6 +338,9 @@ h1{
 }
 .ae-button2__margin{
     margin: 31px 0 63px 0;
+}
+.ae-button2__margin2{
+    margin-top: 22px;
 }
 .ae-button2_color{
     background: #c8db8c;
@@ -492,12 +495,14 @@ h1{
         font-size: 16px;
     }
     h1{
-    font-size: 48px !important;
-    
-}
-.ae-span_xs{
-    font-size: 18px;
-}
+        font-size: 48px !important;
+    }
+    .ae-span_xs{
+        font-size: 18px;
+    }
+    .ae-button2 {
+        width: 220px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -544,6 +549,12 @@ h1{
     height: 332px;
     top: 43px;
 
+}
+.ae-menu__margin2{
+    display: inline-block;
+}
+.ae-button2 {
+    width: 310px;
 }
 }
 

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Полезные советы</title>
+	<title>Отзывы</title>
 	<link rel="shortcut icon" href="favicon.png" />
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/style2.css">
@@ -42,7 +42,7 @@
 			<div class="row">
 				<div class="col-md-7 col-sm-6 col-xs-12">
 					<div class="header_middle-left">
-						<span class="header_middle-span1 header_middle-span1__programs">Полезные советы</span>
+						<span class="header_middle-span1 header_middle-span1__programs">Отзывы</span>
 						<span class="header_middle-span3 header_middle-span3__soveti">В основе любой программы – базовые принципы сбалансированного питания</span>
 					</div>
 				</div>
@@ -69,27 +69,6 @@
 
 					</div>
 				</div>
-				<!-- <div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="ac-soveti-cell">
-						<img src="img/soveti-img2.png" alt="soveti-img2" class="ac-soveti-img">
-						<span class="ac-soveti-span-title">- режим питания -</span>
-						<span class="ac-soveti-span">Питаться нужно не менее 5 раз в день, но небольшими порциями.</span>
-					</div>
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="ac-soveti-cell">
-						<img src="img/soveti-img3.png" alt="soveti-img3" class="ac-soveti-img">
-						<span class="ac-soveti-span-title">- Сбалансированный рацион -</span>
-						<p class="ac-soveti-span">Исключить: газированные сладкие напитки, фаст-фуд, жирные полуфабрикаты и выпечку. Включить: хотя бы в один прием пищи продукты, богатые белком и пищевыми волокнами (например, свежие овощи или вареная куриная грудка).</p>
-					</div>
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="ac-soveti-cell">
-						<img src="img/soveti-img4.png" alt="soveti-img4" class="ac-soveti-img">
-						<span class="ac-soveti-span-title">- физические нагрузки -</span>
-						<p class="ac-soveti-span">Для достижения максимальной эффективности Программы не забывайте про физическую нагрузку – постарайтесь 2-3 раза в неделю заниматься в тренажерном зале или ходить в бассейн, или хотя бы начинайте каждое утро с простой зарядки или не менее 30 минут ходите пешком.</p>
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</section>

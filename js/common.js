@@ -7,12 +7,16 @@ $(document).ready(function(){
         $('body').toggleClass('bodyPad');
 
         
-        $('#imagehide1').toggleClass('col-xs-12');
-        $('#imagehide2').toggleClass('col-xs-12');
-        //$('span-option-cell_style:last-child').toggleClass('ae-dispnone');
-        
+        $('#imagehide1').toggleClass('col-sm-8');
+        $('#imagehide2').toggleClass('col-sm-4');
+        $('#imagehide1').toggleClass('col-sm-12');
+        $('#imagehide2').toggleClass('col-sm-12');
+        $('.ae-absolute').toggleClass('ae-absolute-temp');
+        $('#h1-temp').toggleClass('h1-temp');
+        $('.ae__margin6').toggleClass('ae__margin5-temp');
+        $('.ae__margin6 ul').toggleClass('ae__margin5');
+        $('.ae-relative').toggleClass('ae-relative-temp');
 
-        
     });
 
     $(".single_image").fancybox();

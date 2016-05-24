@@ -40,9 +40,9 @@
 	<section class="ae">
 		<div class="container">
 			<div class="row">
-				<div id="imagehide1" class="col-md-8 col-lg-8 ">
+				<div id="imagehide1" class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
 					<a href="#" class="ae-link ae-link__margin"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Все продукты</a>
-					<h1>Суп со шпинатом</h1>
+					<h1 id="h1-temp">Суп со шпинатом</h1>
 					
 					<span class="ae-span ae-span__margin">Продукт моментального приготовления</span>
 					<span class="ae-span ae-span_xs ae-span__margin ae-span__margin2">Вес: 25 гр.</span>
@@ -62,7 +62,7 @@
 					</div>
 					
 				</div>
-				<div id="imagehide2" class="col-md-4 col-lg-4">
+				<div id="imagehide2" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 					<div class="ae-relative">
 						<img class="ae-absolute ae-img" src="img/soup.png" alt="">
 					</div>		
@@ -231,22 +231,22 @@
 		<div class="container">
 			<div class="row">
 				<div class="ae_style">
-					<div class="col-lg-3 col-md-3 col-sm-4 span-option-cell_style">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 span-option-cell_style">
 						<img src="img/kasha.png" alt="" class="ae-products-img1 products-img1__margin">
 						<span class="products-span1">Концентрат напитка сухой</span>
 						<span class="products-span1">«КОКТЕЙЛЬ ЗАВТРАК»</span>
 					</div>
-					<div class="col-md-3 span-option-cell_style">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 span-option-cell_style">
 						<img src="img/kasha2.png" alt="" class="ae-products-img1 products-img1__margin">
 						<span class="products-span1">Концентрат напитка сухой</span>
 						<span class="products-span1">«КОКТЕЙЛЬ ОБЕД»</span>
 					</div>
-					<div class="col-md-3 span-option-cell_style">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 span-option-cell_style">
 						<img src="img/kasha3.png" alt="" class="ae-products-img1 products-img1__margin">
 						<span class="products-span1">Концентрат напитка сухой</span>
 						<span class="products-span1">«КОКТЕЙЛЬ УЖИН»</span>
 					</div>
-					<div class="col-md-3 span-option-cell_style">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 span-option-cell_style">
 						<img src="img/kasha3.png" alt="" class="ae-products-img1 products-img1__margin">
 						<span class="products-span1">Концентрат напитка сухой</span>
 						<span class="products-span1">«КОКТЕЙЛЬ УЖИН»</span>

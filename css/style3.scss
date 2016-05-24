@@ -467,32 +467,7 @@ h1{
 
 
 
-/*==========  Desktop First Method  ==========*/
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-  
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-    
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
-}
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-    
-}
 
 /*==========  Mobile First Method  ==========*/
 
@@ -558,7 +533,7 @@ h1{
     display: table-cell;
 }
 .ae-absolute{
-    left: -20px;
+    left: -37px;
     transform: translate(0,0);
 }
 .ae-button__margin{
@@ -588,12 +563,14 @@ h1{
 .ae-button2_color2{
     width: 455px;
 }
-.ae-absolute-temp{
-    position: absolute;
-    left: 50%;
-    transform: translate(-47%,0);
-    top: 38px;
-}
+
+
+
+
+
+
+
+
 }
 
 /* Medium Devices, Desktops */
@@ -606,7 +583,7 @@ h1{
         padding-left: 0;
     }
    .ae-absolute{
-        left: 0px;
+        left: -35px;
     }
      h1{
         font-size: 72px !important;
@@ -629,6 +606,57 @@ h1{
     }
 
 }
+
+
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .h1-temp{
+        font-size: 36px !important;
+        text-align: center;
+    }
+.ae-absolute-temp{
+    position: absolute;
+    left: 50%;
+    transform: translate(-47%,0);
+    top: 38px;
+}
+.ae-menu__margin2-temp{
+    display: block;
+
+}
+.ae__margin5-temp{
+    margin-top: 63px;
+
+}
+.ae-relative-temp{
+    height: 412px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    
+}
+
+
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     //padding: 0px;

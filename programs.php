@@ -88,16 +88,16 @@
 			<div class="col-md-8 col-sm-12 col-xs-12 ac-row-block2">
 				<span class="ac-row_span">Как вы оцениваете ваш вес?</span>
 				<div class="col-md-6 col-sm-12 col-xs-12">
-					<a href="#" class="ac-row_link">Я вешу намного больше, чем хотелось бы</a>
+					<a href="#" class="ac-row_link"><span class="ac-link-span"><span class="ac-link-img"></span>Я вешу намного больше, чем хотелось бы</span></a>
 				</div>
 				<div class="col-md-6 col-sm-12 col-xs-12">
-					<a href="#" class="ac-row_link">Я вешу немного больше, чем хотелось бы </a>
+					<a href="#" class="ac-row_link"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу немного больше, чем хотелось бы</span></a>
 				</div>
 				<div class="col-md-6 col-sm-12 col-xs-12">
-					<a href="#" class="ac-row_link">Меня устраивает свой вес </a>
+					<a href="#" class="ac-row_link"><span class="ac-link-img"></span><span class="ac-link-span">Меня устраивает свой вес</span></a>
 				</div>
 				<div class="col-md-6 col-sm-12 col-xs-12">
-					<a href="#" class="ac-row_link">Я вешу меньше, чем хотелось бы</a>
+					<a href="#" class="ac-row_link"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу меньше, чем хотелось бы</span></a>
 				</div>	
 			</div>
 			<div class="col-md-2 ac-row-block3">
@@ -169,6 +169,9 @@
 		<div class="program_item-button"></div>  <!-- Указать существующий класс кнопки -->
 	</div>
 </div>
+
+<div class="clearfix"></div>
+
 <!-- *********************** programs.php *********************** -->
 
 	<?php require_once('footer.php'); ?>

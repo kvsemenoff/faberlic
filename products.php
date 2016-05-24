@@ -52,21 +52,14 @@
 					</div>
 				</div>
 			</div>
-								<ul class="ac-list-products">
-								<li class="ac-list__item-products"><span>EATLESS И PHYTOX</span></li>
-								<li class="ac-list__item-products"><span>Каши</span></li>
-							
-								<li class="ac-list__item-products"><span>СУПЫ</span></li>
-							
-								<li class="ac-list__item-products active"><span>Коктейли Завтрак, Обед, Ужин</span></li>
-							
-								<li class="ac-list__item-products"><span>Напитки (Кисели, кофе, какао) </span></li>
-						
-								<li class="ac-list__item-products"><span>Коктейли белковые и на молочной сыворотке</span></li>
-							
-						
-					</ul>
-			
+			<ul class="ac-list-products">
+				<li class="ac-list__item-products"><span>EATLESS И PHYTOX</span></li>
+				<li class="ac-list__item-products"><span>Каши</span></li>
+				<li class="ac-list__item-products"><span>СУПЫ</span></li>
+				<li class="ac-list__item-products active"><span>Коктейли Завтрак, Обед, Ужин</span></li>
+				<li class="ac-list__item-products"><span>Напитки (Кисели, кофе, какао) </span></li>
+				<li class="ac-list__item-products"><span>Коктейли белковые и на молочной сыворотке</span></li>
+			</ul>
 		</div>
 	</section>
 
@@ -90,11 +83,6 @@
 					<img src="img/products-supper.png" alt="products-supper" class="products-img1">
 					<span class="products-span1">Концентрат напитка сухой</span>
 					<span class="products-span1">«КОКТЕЙЛЬ УЖИН»</span>
-				</div>
-			</div>
-			<div class="row span-option-row">
-				<div class="col-md-12 col-sm-12 col-xs-12">
-					<span class="products-span2">Copyright © 2016ОАО "Фаберлик" Кислородная косметика и парфюмерия</span>
 				</div>
 			</div>
 		</div>

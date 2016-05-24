@@ -183,7 +183,6 @@
     display: inline-block;
     width: 210px;
     height: 60px;
-    padding: 10px 0px;
     border: 1px solid #7CC5CF;
     margin-top: 15px;
     margin-right: 10px;
@@ -195,7 +194,15 @@
 .ac-row_link:hover{
     background-color: #14b2cc;
     color: #fff;
+    .ac-link-img{
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        background: url(../img/true-circle.png) center center no-repeat;
+        margin-right: 10px;
+    }
 }
+
 //***********************************************
 .ac-block1{
     padding-top: 10px;
@@ -269,8 +276,10 @@
 }
 .span-option-row{
     text-align: center;
+    margin-bottom: 20px;
 }
 .span-option-cell{
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.125);
     border: 1px solid #f3f5f7;
     margin-top: 38px;
     padding: 42px 0px 35px 0px;
@@ -299,6 +308,14 @@
 }
 
 // *********************** programs.php ***********************
+
+// *********************** soveti.php ***********************
+
+
+
+
+
+// *********************** soveti.php ***********************
 
 /*==========  Desktop First Method  ==========*/
 
@@ -387,6 +404,11 @@
         height: 343px;
         margin: 76px 0px 0px 45px;
     }
+    .header_middle-women__soveti{
+        width: 329px;
+        height: 373px;
+        margin: 35px 0px 0px 45px;
+    }
     .header_middle-span1{
         font-size: 99.74px;
         margin-top: 107px;
@@ -449,9 +471,9 @@
         height: 55px;
         padding: 18px 0px;
     }
-    .ac-row_link:hover{
-        background: #14b2cc url(../img/true-circle.png) 20px 19px no-repeat;
-    }
+    // .ac-row_link:hover{
+    //     background: #14b2cc url(../img/true-circle.png) 20px 19px no-repeat;
+    // }
     .program_item-pinklink{
         width: 335px;
         height: 83px;

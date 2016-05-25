@@ -368,9 +368,12 @@
   margin-bottom: 20px;
   padding-bottom: 20px; }
 
-.mod-window {
+.mod-window-top {
   border: 1px solid #ccc;
   text-align: center; }
+
+.mod-window-middle {
+  background-color: #14b2cc; }
 
 .ac-people-span4 {
   display: block; }
@@ -378,15 +381,12 @@
 .ac-people-text1 {
   text-align: left; }
 
+.ac-calc-box {
+  text-align: center; }
+
 .ac-people {
-  display: inline-block;
-  margin-right: 30px; }
-
-.ac-people-list {
-  display: block; }
-
-.ac-people-span1 {
-  display: block; }
+  display: table-cell;
+  vertical-align: top; }
 
 .ac-people-woman {
   display: inline-block;
@@ -408,29 +408,23 @@
 .ac-people-man:hover {
   background-color: #0e3f58; }
 
-.ac-form-right {
-  display: inline-block; }
+.ac-form-box {
+  display: table;
+  background-color: #14b2cc;
+  margin: 0px auto; }
 
-.ac-form-index {
-  display: inline-block; }
-
-.ac-form-index-text1, .ac-form-index-text2 {
+.ac-form-index-text {
   display: block;
-  text-align: left; }
+  margin-bottom: 17px; }
+
+.ac-form-element {
+  display: table-cell;
+  text-align: left;
+  vertical-align: top; }
 
 .ac-form-button-box {
-  text-align: left; }
-
-.ac-form-box {
-  display: inline-block;
-  background-color: #14b2cc;
-  padding: 45px 0px 65px 0px;
-  text-align: center; }
-
-.ac-form-index-input {
-  width: 143px;
-  height: 55px;
-  margin-right: 20px; }
+  display: table-cell;
+  vertical-align: bottom; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */

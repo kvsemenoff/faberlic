@@ -28,16 +28,20 @@ to {left: 0px;}
     }
 }
 
+
 .container{
         box-sizing: border-box !important;
         //outline: 10px solid #00f;
         max-width: 100%
     }
 
+
+
 .header-top {
     background: #f22e89;
     height: 65px;
     font-size: 12px;
+    line-height: 65px;
     text-transform: uppercase;
 }
 
@@ -49,14 +53,16 @@ to {left: 0px;}
     left: 0px;
     top: 0px;
     z-index: 4;
-
+    padding: 0 0 0 15px;
+    color: #fff;
+    background: #f22e89;
+    display: block;
+    line-height: 30px !important;
 }
 
 .header-top__menu-unpressed {
-    display: block;
-    padding: 25px 0 0 15px;
-    color: #fff;
-    background: #f22e89;
+    text-align: center;
+    
 }
 
 .menu-menu {
@@ -74,14 +80,15 @@ to {left: 0px;}
     display: block;
 }
 
-.menu-item:first-child {
-    margin-top: 55px;
+.menu-item:last-child {
+    
+    margin-right: 0px;
 }
 
 .menu-item {
-    display: block;
+    display: inline-block;
     margin-right: 40px;
-    margin-bottom: 10px;
+    //margin-bottom: 10px;
 }
 
 
@@ -90,20 +97,20 @@ to {left: 0px;}
     color: #fff;
 }
 
-.header-top__logo {
-    display: inline-block; 
-    padding: 17px 0 0 53px;
-    
-}
+
 
 .header-top__login {
     display: inline-block; 
-    margin: 25px 0 0 50px;
+    //margin: 25px 0 0 50px;
     color: #fff;
 }
 
-.padding-left{
-    padding-left: 0 !important;
+.register-box{
+    width:100%;
+    border-left: 1px solid #f997c4;
+    border-right: 1px solid #f997c4;
+    height: 100%;
+    text-align: center;
 }
 
 
@@ -165,7 +172,7 @@ h1{
 }
 
 
-/*кнопка Купить*/
+/*button to buy*/
 .ae-button{
     //background: #fff;
     width: 175px;
@@ -197,7 +204,7 @@ h1{
 .ae-button-lg{
     display: none;
 }
-/*кнопка Купить*/
+/*button to buy*/
 
 
 
@@ -222,7 +229,7 @@ h1{
 }
 
 
-/* меню о продукции состав*/
+/*menu*/
 
 
 .ae-menu:hover{
@@ -246,18 +253,21 @@ h1{
     margin-top: 53px;
 }
 .ae__margin6{
-    margin-top: 63px;
+   padding-bottom: 63px;
 }
 .ae-menu__margin2{
-    display: block;
+    display: none;
+}
+.ae-menu__margin2-show{
+    display:block;
 }
 .ae-menu_style:hover{
     background: #e6f4ed;
 }
-/* меню о продукции состав*/
+/*menu*/
 
 
-/*картинка шпинат*/
+/*shpinat image*/
 .ae-relative{
     position: relative;
     width: 100%;
@@ -277,7 +287,7 @@ h1{
     height: 350px;
 }
 
-/*картинка шпинат*/
+/*shpinat image*/
 
 
 
@@ -556,6 +566,10 @@ h1{
 .ae-menu__margin2{
     display: inline-block;
 }
+.ae-menu__margin2-show{
+    display: inline-block;
+}
+
 .ae-button2 {
     width: 310px;
     font-size: 24px;
@@ -579,25 +593,24 @@ h1{
         display: inline;
     }
 
-    .header-top__logo {
-        padding-left: 0;
-    }
    .ae-absolute{
         left: -35px;
     }
      h1{
         font-size: 72px !important;
     }
+    .menu-list-unpressed {
+        display: inline-block;
+        line-height: 20px !important;
+    }
 }
 
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-    .menu-list-unpressed {
-        display: inline-block;
-    }
+    
 
     .menu-item:first-child {
-        margin-top: 0px;
+        //margin-top: 0px;
     }
     
     .menu-item {
@@ -628,6 +641,8 @@ h1{
     transform: translate(-47%,0);
     top: 38px;
 }
+
+
 .ae-menu__margin2-temp{
     display: block;
 
@@ -639,10 +654,33 @@ h1{
 .ae-relative-temp{
     height: 412px;
 }
+.header-top__menu-unpressed {
+    text-align: left;
+
+}
+.logobox{
+ text-align: center;   
+}
+.menu-item {
+    line-height: 20px !important;
+    //margin-bottom: 10px;
+}
+.menu-item:first-child{
+    margin-top: 20px;
+}
+.menu-menu{
+    line-height: 65px !important;
+}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+.ae-relative-temp{
+    height: 369px;
+}
+.logobox{
+ text-align: right;   
+}
 
 }
 

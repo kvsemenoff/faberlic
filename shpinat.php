@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -37,7 +37,7 @@
 
 <!-- *********************** programs.php *********************** -->
 	
-	<section class="ae">
+	<section class="ae ae__margin6">
 		<div class="container">
 			<div class="row">
 				<div id="imagehide1" class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
@@ -70,13 +70,14 @@
 			</div>		
 		</div>
 	</section>
-	
-	<section class="ae ae__margin6">
+<section class="">
+		
+	<div class="ae">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<ul class="ae__margin5">
-						<li class="ae-menu ae-menu__margin2">О продукте</li>
+						<li class="ae-menu ae-menu__margin2-show">О продукте</li>
 						<li class="ae-menu ae-menu__margin2">Состав</li>
 						<li class="ae-menu ae-menu__margin2">Как применять</li>
 						<li class="ae-menu ae-menu__margin2">Отзывы</li>
@@ -84,9 +85,9 @@
 				</div>
 			</div>		
 		</div>
-	</section>
+	</div>
 
-<section class="">
+<div class="ae-hide-show">
 	<div class="container">
 		<div class="row">
 			<div class="ae-center
@@ -111,24 +112,26 @@
 			</div>
 		</div>		
 	</div>
+</div>
 </section>
-
-	<section class="ae ae__margin4">
+	
+<section class="">
+	<div class="ae ae__margin4">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<ul class="">
 						<li class="ae-menu ae-menu__margin2 ae-menu_style">О продукте</li>
-						<li class="ae-menu ae-menu__margin2 ae-menu_style">Состав</li>
+						<li class="ae-menu ae-menu__margin2-show ae-menu_style">Состав</li>
 						<li class="ae-menu ae-menu__margin2 ae-menu_style">Как применять</li>
 						<li class="ae-menu ae-menu__margin2 ae-menu_style">Отзывы</li>
 					</ul>
 				</div>
 			</div>		
 		</div>
-	</section>
+	</div>
 
-	<section class="">
+	<div class="ae-hide-show">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-offset-1 col-md-10 col-md-offset-1">
@@ -159,25 +162,28 @@
 					</div>
 				</div>
 		</div>
-	</section>
+	</div>
+</section>
 
-	<section class="ae ae__margin">
+<section class="">
+
+	<div class="ae ae__margin">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<ul class="">
 						<li class="ae-menu ae-menu__margin2 ae-menu_style">О продукте</li>
 						<li class="ae-menu ae-menu__margin2 ae-menu_style">Состав</li>
-						<li class="ae-menu ae-menu__margin2 ae-menu_style">Как применять</li>
+						<li class="ae-menu ae-menu__margin2-show ae-menu_style">Как применять</li>
 						<li class="ae-menu ae-menu__margin2 ae-menu_style">Отзывы</li>
 					</ul>
 				</div>
 			</div>		
 		</div>
-	</section>
+	</div>
 
 	
-	<section class="">
+	<div class="ae-hide-show">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-offset-1 col-md-10 col-md-offset-1">
@@ -189,9 +195,12 @@
 				</div>
 			</div>		
 		</div>
-	</section>
+	</div>
+</section>
 
-	<section class="ae ae__margin2">
+<section class="">
+
+	<div class="ae ae__margin2">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -199,15 +208,15 @@
 						<li class="ae-menu ae-menu__margin2 ae-menu_style">О продукте</li>
 						<li class="ae-menu ae-menu__margin2 ae-menu_style">Состав</li>
 						<li class="ae-menu ae-menu__margin2 ae-menu_style">Как применять</li>
-						<li class="ae-menu ae-menu__margin2 ae-menu_style">Отзывы</li>
+						<li class="ae-menu ae-menu__margin2-show ae-menu_style">Отзывы</li>
 					</ul>
 				</div>
 			</div>		
 		</div>
-	</section>
+	</div>
 
 	
-	<section class="">
+	<div class="ae-hide-show">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-offset-1 col-md-10 col-md-offset-1">
@@ -225,7 +234,9 @@
 				</div>
 			</div>		
 		</div>
-	</section>
+	</div>
+</section>
+
 
 	<section class="ae__margin3">
 		<div class="container">

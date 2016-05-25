@@ -13,7 +13,10 @@ from {left: -201px;}
 to {left: 0px;}
 }
     
+//.mask { position:absolute; left:0; top:0;  z-index:9000; height: 100%; width: 100%; background-color:rgba(0,0,0,.5);  display:block; outline: 10px solid #000;}
+
 .bodyPad {
+    position: relative;
    // overflow: hidden;
     box-sizing: border-box !important;
     .container{
@@ -27,7 +30,17 @@ to {left: 0px;}
 
     }
 }
-
+.bodyPad::before {
+    content: '';
+    position: absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0,0,0,.5);
+    display:block;
+}
 
 .container{
         box-sizing: border-box !important;
@@ -36,7 +49,7 @@ to {left: 0px;}
     }
 
   .logobox{
- text-align: center;
+ text-align: right;
  margin-top: -4px;  
 }
 
@@ -55,7 +68,7 @@ to {left: 0px;}
     animation: shadow1  1s 1 ease-in-out;
     left: 0px;
     top: 0px;
-    z-index: 4;
+    z-index: 10000;
     padding: 0 0 0 15px;
     color: #fff;
     background: #f22e89;
@@ -98,14 +111,29 @@ to {left: 0px;}
 
 .menu-item__link {
     color: #fff;
+    letter-spacing: .1em;
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+    //transition: all 300ms ease-in-out;
 }
 
+.menu-item__link:hover::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    border: 1px solid #fff;
+    top: -7px;
+
+}
 
 
 .header-top__login {
     display: inline-block; 
     //margin: 25px 0 0 50px;
     color: #fff;
+    font-size: 14px;
+    letter-spacing: .1em;
 }
 
 .register-box{
@@ -499,8 +527,8 @@ h1{
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 	.bodyPad {
-        animation: shadow  1s 1 ease-in-out;
-        padding-left: 201px;
+        //animation: shadow  1s 1 ease-in-out;
+        //padding-left: 201px;
     }
     .ae-span {
         font-size: 16px;
@@ -580,7 +608,10 @@ h1{
 .ae-button2_color2{
     width: 455px;
 }
-
+.logobox{
+ text-align: center;
+ margin-top: -4px;  
+}
 
 
 
@@ -629,7 +660,17 @@ h1{
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+.menu-item__link {
 
+    font-size: 12px;
+}
+.menu-item {
+    margin-right: 25px;
+    
+}
+.header-top__login {
+    font-size: 12px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -661,10 +702,10 @@ h1{
     text-align: left;
 
 }
-.logobox{
- text-align: center;
+/*.logobox{
+ text-align: right;
  margin-top: -4px;  
-}
+}*/
 .menu-item {
     line-height: 20px !important;
     //margin-bottom: 10px;
@@ -674,6 +715,7 @@ h1{
 }
 .menu-menu{
     line-height: 65px !important;
+    letter-spacing: .1em;
 }
 }
 
@@ -682,9 +724,9 @@ h1{
 .ae-relative-temp{
     height: 369px;
 }
-.logobox{
+/*.logobox{
  text-align: right;   
-}
+}*/
 
 }
 

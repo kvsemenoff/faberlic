@@ -394,12 +394,78 @@
 // *********************** soveti.php ***********************
 
 // *********************** IMT ***********************
+.mod-window{
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.ac-people-span4{
+    display: block;
+}
+.ac-people-text1{
+    text-align: left;
+}
+.ac-calc-box{
+    // text-align: center;
+}
+.ac-people{
+    display: inline-block;
+    margin-right: 30px;
+    // margin: 0px auto;
+}
+.ac-people-list{
+    display: block;
+    // margin-left: -.36em;
+}
+.ac-people-span1{
+    display: block;
+}
+.ac-people-woman{
+    display: inline-block;
+    width: 53px;
+    height: 56px;
+    border: 1px solid #0e3f58;
+    background: url(../img/wom-img.png) center center no-repeat;
+}
+.ac-people-woman:hover{
+    background-color: #0e3f58;
+}
+.ac-people-man{
+    display: inline-block;
+    width: 53px;
+    height: 56px;
+    border: 1px solid #0e3f58;
+    background: url(../img/men-img.png) center center no-repeat;
+}
+.ac-people-man:hover{
+    background-color: #0e3f58;
+}
+.ac-form-right{
+    display: inline-block;
+        // margin: 0px auto;
 
-
-
-
-
-
+}
+.ac-form-index{
+    display: inline-block;
+}
+.ac-form-index-text1, .ac-form-index-text2{
+    display: block;
+    text-align: left;
+}
+.ac-form-button-box{
+    text-align: left;
+}
+.ac-form-box{
+    display: inline-block;
+    background-color: #14b2cc;
+    padding: 45px 0px 65px 0px;
+    text-align: center;
+    // margin: 0 auto;
+}
+.ac-form-index-input{
+    width: 143px;
+    height: 55px;
+    margin-right: 20px;
+}
 
 
 // *********************** IMT ***********************

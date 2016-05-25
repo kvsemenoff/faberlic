@@ -16,13 +16,13 @@
 					</div>
 				</div>
 
-				<div class="col-xs-6 col-sm-8 col-md-2 col-lg-2 col-md-pull-6 col-lg-pull-7">
+				<div class="col-xs-6 col-sm-7 col-md-2 col-lg-2 col-md-pull-6 col-lg-pull-7">
 					<div class="logobox">
-						<a href="/" class=""><img src="img/faberlic.png" alt=""></a>
+						<a href="/" class=""><img src="img/__logo.svg" alt=""></a>
 					</div>
 				</div>
 				
-				<div class="hidden-xs col-sm-2 col-md-4 col-lg-3">
+				<div class="hidden-xs col-sm-3 col-md-4 col-lg-3">
 				<div class="register-box">
 					<a href="#" class="header-top__login">РЕГИСТРАЦИЯ <span class="fab-hid-sm fab-vis-md">В ПРОГРАММЕ</span></a>
 					</div>

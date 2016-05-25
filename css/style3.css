@@ -9,6 +9,7 @@
   to {
     left: 0px; } }
 .bodyPad {
+  position: relative;
   box-sizing: border-box !important; }
   .bodyPad .container {
     box-sizing: border-box !important;
@@ -16,9 +17,27 @@
   .bodyPad .row {
     box-sizing: border-box !important; }
 
+.bodyPad::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9000;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: block; }
+
 .container {
   box-sizing: border-box !important;
   max-width: 100%; }
+
+.logobox {
+  text-align: right;
+  margin-top: -4px; }
+  .logobox img {
+    width: 124px;
+    height: 27px; }
 
 .header-top {
   background: #f22e89;
@@ -34,7 +53,7 @@
   animation: shadow1  1s 1 ease-in-out;
   left: 0px;
   top: 0px;
-  z-index: 4;
+  z-index: 10000;
   padding: 0 0 0 15px;
   color: #fff;
   background: #f22e89;
@@ -63,11 +82,24 @@
   margin-right: 40px; }
 
 .menu-item__link {
-  color: #fff; }
+  color: #fff;
+  letter-spacing: .1em;
+  font-size: 14px;
+  position: relative;
+  display: inline-block; }
+
+.menu-item__link:hover::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  border: 1px solid #fff;
+  top: -7px; }
 
 .header-top__login {
   display: inline-block;
-  color: #fff; }
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: .1em; }
 
 .register-box {
   width: 100%;
@@ -347,10 +379,6 @@ h1 {
     text-align: center; } }
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
-  .bodyPad {
-    animation: shadow  1s 1 ease-in-out;
-    padding-left: 201px; }
-
   .ae-span {
     font-size: 16px; }
 
@@ -418,7 +446,11 @@ h1 {
     font-size: 24px; }
 
   .ae-button2_color2 {
-    width: 455px; } }
+    width: 455px; }
+
+  .logobox {
+    text-align: center;
+    margin-top: -4px; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .fab-vis-md {
@@ -439,6 +471,15 @@ h1 {
     display: inline-block; } }
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .menu-item__link {
+    font-size: 12px; }
+
+  .menu-item {
+    margin-right: 25px; }
+
+  .header-top__login {
+    font-size: 12px; } }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .h1-temp {
@@ -463,9 +504,10 @@ h1 {
   .header-top__menu-unpressed {
     text-align: left; }
 
-  .logobox {
-    text-align: center; }
-
+  /*.logobox{
+   text-align: right;
+   margin-top: -4px;  
+  }*/
   .menu-item {
     line-height: 20px !important; }
 
@@ -473,14 +515,16 @@ h1 {
     margin-top: 20px; }
 
   .menu-menu {
-    line-height: 65px !important; } }
+    line-height: 65px !important;
+    letter-spacing: .1em; } }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .ae-relative-temp {
     height: 369px; }
 
-  .logobox {
-    text-align: right; } }
+  /*.logobox{
+   text-align: right;   
+  }*/ }
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
 

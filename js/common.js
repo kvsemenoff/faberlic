@@ -7,6 +7,7 @@ $(document).ready(function(){
         $('body').toggleClass('bodyPad');
         $('#icon1').toggleClass('ae-dispnone');
         $('#icon2').toggleClass('ae-dispnone');
+        //$('.bodyPad').toggleClass('mask');
         
         $('#imagehide1').toggleClass('col-sm-8');
         $('#imagehide2').toggleClass('col-sm-4');

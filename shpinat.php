@@ -227,16 +227,16 @@
 					<p class="ae-regular">Суп очень вкусный, а самое главное - полезный, с точки зрения здоровья! Вся зелень ощелачивает организм, 
 					соответственно, мощнейшая профилактика старения организма!</p>
 					
-					<div class="ae-center">
-						<a class="ae-button2 ae-button2__margin ae-button2_color2" href="">регистрация в программе</a>
-						<span class="ae-vam-podo ae-vam-podo__margin">А еще вам подойдут</span>
-					</div>
+					
 				</div>
 			</div>		
 		</div>
 	</div>
 </section>
-
+<div class="ae-center">
+						<a class="ae-button2 ae-button2__margin ae-button2_color2" href="">регистрация в программе</a>
+						<span class="ae-vam-podo ae-vam-podo__margin">А еще вам подойдут</span>
+					</div>
 
 	<section class="ae__margin3">
 		<div class="container">

@@ -20,6 +20,10 @@
   box-sizing: border-box !important;
   max-width: 100%; }
 
+.logobox {
+  text-align: center;
+  margin-top: -4px; }
+
 .header-top {
   background: #f22e89;
   height: 65px;
@@ -464,7 +468,8 @@ h1 {
     text-align: left; }
 
   .logobox {
-    text-align: center; }
+    text-align: center;
+    margin-top: -4px; }
 
   .menu-item {
     line-height: 20px !important; }

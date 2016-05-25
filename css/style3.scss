@@ -35,7 +35,10 @@ to {left: 0px;}
         max-width: 100%
     }
 
-
+  .logobox{
+ text-align: center;
+ margin-top: -4px;  
+}
 
 .header-top {
     background: #f22e89;
@@ -626,7 +629,7 @@ h1{
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-  
+
 }
 
 /* Medium Devices, Desktops */
@@ -659,7 +662,8 @@ h1{
 
 }
 .logobox{
- text-align: center;   
+ text-align: center;
+ margin-top: -4px;  
 }
 .menu-item {
     line-height: 20px !important;

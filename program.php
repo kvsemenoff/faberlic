@@ -106,12 +106,116 @@
 			</div>
 		</div>
 	</section>
+
 	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="acc-some-text">
+					Программа «Ускорение» от Faberlic – это комбинированная 
+программа для экспресс-результатов, чередующая 
+полноценный рацион и разгрузочные дни.
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="clear"></div>
+	<div class="center">
+		<ul class="vremya">
+			<li class="active">
+				<div class="ico-box">
+					<img src="img/utro_ico.svg" alt="">
+				</div>
+				<span>Утро</span>
+			</li>
+			<li>
+				<div class="ico-box">
+					<img src="img/den_ico.png" alt="">
+				</div>
+				<span>День</span>
+			</li>
+			<li>
+				<div class="ico-box">
+					<img src="img/vecher.png" alt="">
+				</div>
+				<span>Вечер</span>
+			</li>
+		</ul>
+	</div>
+	<div class="ab-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1">
+					<!-- ddd -->
+				</div>
+				<div class="col-md-10">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="ab-menu-center">
+								<span class="ab-title">1. Завтрак</span>
+							</div>
+							
+						</div>
+						<div class="col-md-6">
+							<div class="ab-menu-center">
+								<span class="ab-title">2. Первый перекус</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1">
+					<!-- ddd -->
+				</div>
+			</div>
+		</div>
+	</div>
 
 
+<div class="program-cell">
+	<div class="program_item">
+		<div class="program_item__img-box">
+			<img src="img/program-img.png" alt="program-img" class="program_item__imgtop">
+		</div>
+		<div class="program_item__title">Перезагрузка</div>
+		<div class="program_item__subtitle">классическая программа</div>
+		<div class="program_item__text">Для тех, кто хочет долговременного эффекта и готов изменить свои привычки питания</div>
+		<div class="program_item__girl">
+			<img src="img/program-girl.png" alt="program-girl" class="program_item__girl-img">
+		</div>
+		<div class="program_item-button"></div>  <!-- Указать существующий класс кнопки -->
+	</div>
+</div>
+<div class="program-cell program-cell1">
+	<div class="program_item program_item1">
+		<div class="program_item__img-box">
+			<img src="img/program-img1.png" alt="program-img1" class="program_item__imgtop">
+		</div>
+		<div class="program_item__title">Ускорение</div>
+		<div class="program_item__subtitle">интенсивная программа</div>
+		<div class="program_item__text">Для тех, кто хочет получить быстрый результат и готов активно работать над собой</div>
+		<div class="program_item__girl">
+			<img src="img/tetka.png" alt="tetka" class="program_item__girl-img1">
+		</div>
+		<div class="program_item-button"></div>  <!-- Указать существующий класс кнопки -->
+	</div>
+</div>
+<div class="program-cell program-cell2">
+	<div class="program_item program_item2">
+		<div class="program_item__img-box">
+			<img src="img/program-img2.png" alt="program-img2" class="program_item__imgtop">
+		</div>
+		<div class="program_item__title">Разгрузочный день</div>
+		<div class="program_item__subtitle">Периодическая программа</div>
+		<div class="program_item__text">Для тех, кто доволен своим весом, но иногда хочет избавиться от чувства тяжести</div>
+		<div class="program_item__girl">
+			<img src="img/program-girl1.png" alt="program-girl1" class="program_item__girl-img2">
+		</div>
+		<div class="program_item-button"></div>  <!-- Указать существующий класс кнопки -->
+	</div>
+</div>
+<div class="clearfix"></div>
 	<?php require_once('footer.php'); ?>
-	
-
 	
 </body>
 </html>

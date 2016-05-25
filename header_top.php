@@ -18,7 +18,7 @@
 
 				<div class="col-xs-6 col-sm-7 col-md-2 col-lg-2 col-md-pull-6 col-lg-pull-7">
 					<div class="logobox">
-						<a href="/" class=""><img src="img/faberlic2.png" alt=""></a>
+						<a href="/" class=""><img src="img/__logo.svg" alt=""></a>
 					</div>
 				</div>
 				

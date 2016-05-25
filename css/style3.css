@@ -35,6 +35,9 @@
 .logobox {
   text-align: right;
   margin-top: -4px; }
+  .logobox img {
+    width: 124px;
+    height: 27px; }
 
 .header-top {
   background: #f22e89;

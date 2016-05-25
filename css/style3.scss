@@ -13,6 +13,7 @@ from {left: -201px;}
 to {left: 0px;}
 }
     
+
 //.mask { position:absolute; left:0; top:0;  z-index:9000; height: 100%; width: 100%; background-color:rgba(0,0,0,.5);  display:block; outline: 10px solid #000;}
 
 .bodyPad {
@@ -51,6 +52,10 @@ to {left: 0px;}
   .logobox{
  text-align: right;
  margin-top: -4px;  
+ img{
+    width: 124px;
+    height: 27px;
+ }
 }
 
 .header-top {

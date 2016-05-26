@@ -184,8 +184,11 @@ to {left: -201px;}
 .ae-link{
     color: #fff;
     font-size: 18px;
+    font-family: "MyriadPro-Regular";
+    background: url(../img/arr_left_prod.png) left center no-repeat;
+    padding-left: 30px;
 }
-.ae-link__margin {
+.ae-all-proucts {
     margin: 42px 0 0 0;
     display: block;
 }
@@ -208,13 +211,15 @@ to {left: -201px;}
 }
 
 h1{
-        font-size: 36px !important;
-        text-align: center;
-    }
+    font-size: 36px !important;
+    text-align: center;
+    letter-spacing: .05em;
+}
 
 .ae-span2 {
     color: #fff;
-    font-size: 24px;
+    font-size: 24px !important;
+
 
 }
 .ae-span2__margin{
@@ -223,7 +228,14 @@ h1{
     text-align: center;
     display: block; 
 }
-
+.ae-base-price{
+    display: table;
+}
+.ae-base-price_cell{
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 20px;
+}
 
 /*button to buy*/
 .ae-button{
@@ -246,9 +258,16 @@ h1{
     width: 175px;
     height: 40px;
     line-height: 40px;
-    //vertical-align: middle;
+    border: 1px solid #fff;
     text-align: center;
     display: inline-block;
+    font-size: 14px;
+    font-family: "MyriadPro-Regular";
+    letter-spacing: .1em;
+}
+.ae-button__button:hover{
+    background: #009049; 
+    color: #fff;
 
 }
 .ae-button-xs{
@@ -308,6 +327,14 @@ h1{
 .ae__margin6{
    margin-bottom: 40px;
    padding-bottom: 0;
+   line-height: 25px;
+   font-family: "MyriadPro-Regular";
+   span{
+        opacity: 0.8;
+        font-family: "MyriadPro-Regular";
+        font-size: 18px;
+        color: #fff;
+   }
 }
 .ae-menu__margin2{
     display: none;
@@ -333,13 +360,14 @@ h1{
     position: absolute;
     left: 50%;
     transform: translate(-47%,0);
-    top: 38px;
+    top: 25px;
+    z-index: 500;
 }
 
 
 .ae-img{
-    width: 274px;
-    height: 350px;
+    width: 253px;
+    height: 347px;
 }
 
 /*shpinat image*/
@@ -419,6 +447,8 @@ h1{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 18px;
+    font-family: "MyriadPro-Regular";
+    letter-spacing: .1em
 
 }
 .ae-button2__margin{
@@ -522,7 +552,129 @@ h1{
     display: none;
 }
 
+/*****************************/
 
+.product-tab_content{
+    //text-align: center;
+}
+
+/* REQUIRED for core functionality */
+
+.responsive-tabs__heading { display: none;}
+.responsive-tabs__list__item { display: inline; cursor:pointer;}
+
+
+@media (max-width: 767px) {
+    .responsive-tabs__list { display: none;}
+    .responsive-tabs__heading { display: block; cursor: pointer; }
+    .responsive-tabs__panel--closed-accordion-only { display: none;}
+}
+
+@media (min-width: 768px) {
+    .responsive-tabs__panel--closed-accordion-only { display: block !important;}
+}
+
+/* END - Required for core functionality */
+
+
+/* OPTIONAL - Basic Skin */
+.responsive-tabs{
+    margin-top: -25px;
+}
+.responsive-tabs-wrapper { 
+    clear: both;
+    zoom: 1; 
+}
+.responsive-tabs-wrapper:before,
+.responsive-tabs-wrapper:after {
+    content: "";
+    display: table;
+} 
+.responsive-tabs-wrapper:after {
+    clear: both;
+}
+
+
+.responsive-tabs__list { 
+    // font-size: 1.2em;
+    // margin: 2em 0 0 0;
+    // padding: 0;
+    // border-bottom: 1px solid #ddd;
+    // padding-bottom:11px;
+    // line-height: 1em;
+}
+.responsive-tabs__list__item {
+
+    padding: 10px 25px;
+    font-family: "MyriadPro-Cond";
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: #fff;
+}
+.responsive-tabs__list__item:hover {
+    background: #fff;
+    color: #000;
+}
+
+.responsive-tabs__list__item--active, 
+.responsive-tabs__list__item--active:hover {
+    background: #fff; 
+    color: #000;
+
+
+}
+
+.responsive-tabs__panel { 
+    padding: 25px;
+    background: #fff;
+    
+}
+
+@media (max-width: 767px) {
+    .responsive-tabs__heading { 
+        padding: 30px 20px; 
+       
+        background: #009049;
+        border-bottom: 1px solid #fff;
+        position: relative;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: .05em;
+        color: #fff;
+        font-family: "MyriadPro-Cond";
+    }
+
+    .responsive-tabs__heading:after {
+        content:"";
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 40%;
+        width: 0; 
+        height: 0; 
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #000;
+    }
+    .responsive-tabs__heading:hover,
+    .responsive-tabs__heading--active:hover {
+        background-color: #f22e89;
+        color: #fff;
+    }
+    .responsive-tabs__heading--active { 
+        background: #f22e89;
+        color: #fff;
+    }
+    .responsive-tabs__heading--active:after {
+        border-bottom: 10px solid #000;
+        border-top:0;
+     }
+}
+
+/* END - Optional - Basic Skin */
+
+/*****************************/
 
 // ******************** shpinat ********************
 
@@ -577,6 +729,7 @@ h1{
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+
 .fab-hid-sm {
     display: none;
 }
@@ -782,11 +935,27 @@ h1{
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-.ae-relative-temp{
-    height: 369px;
-}
+    .ae-relative-temp{
+        height: 369px;
+    }
 
+    .ae__margin6{
+        text-align: center;
+    }
+    .ae-base-price, .ae-base-price_cell{
+        display: block;
 
+    }
+    .ae-button__button{
+        margin-top: 10px;
+    }
+    .product-tab{
+        .row, .container, div[class^="col"] {
+            padding: 0px;
+            margin: 0px;
+
+        }
+    }
 }
 
 /* Extra Small Devices, Phones */

@@ -26,11 +26,12 @@
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="libs/wow/wow.min.js"></script>
 
+
 	<script>
     	new WOW().init();
     </script>
-	<script src="js/jquery.maskedinput.min.js"></script>
-	<script src="js/parallax.min.js"></script>
+
+	<script src="js/responsiveTabs.js"></script>
 	<script src="js/common.js"></script>
 
 	<?php require_once('header_top.php'); ?>

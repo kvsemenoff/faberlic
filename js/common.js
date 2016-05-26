@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
-
+    RESPONSIVEUI.responsiveTabs();
+    
     $('.menu-menu').click(function(){
         $('.header-top__menu-unpressed').toggleClass('header-top__menu-pressed');
         

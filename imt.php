@@ -39,60 +39,61 @@
 	<?php require_once('footer.php'); ?>
 
 	<!-- *********************** IMT *********************** -->
-	<section class="mod-window-top">
-		<div class="container">
-			<div class="row">
-				<img src="img/calc-mod.png" alt="calc-mod" class="ac-people-calc">
-				<span class="ac-people-span4">Рассчитайте свой Индекс Массы Тела и узнайте, находится ли ваш вес в пределах нормы!</span>
-				<div class="col-md-6 col-sm-12 col-xs-12">
-					<p class="ac-people-text1">Индекс Массы Тела (ИМТ) показывает степень соответствия веса человека и его роста, позволяя оценить приблизительно нормальный вес у человека определенного роста. Этот показатель считается более достоверным, чем отдельно взятое значение веса.</p>
-				</div>
-				<div class="col-md-6 col-sm-12 col-xs-12">
-					<p class="ac-people-text1">Однако ИМТ не учитывает многих особенностей тела человека – например, люди, активно занимающиеся спортом, могут получить завышенное значение из-за большой мышечной массы. Поэтому результат ИМТ является не более чем рекомендацией и основой для понимания своего веса и дальнейшего прогресса.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="mod-window-middle">
-		<div class="ac-form-box">
-			<div class="ac-people">
-				<span class="ac-form-index-text">Ваш пол</span>
-		        <ul class="ac-people-list">
-		            <li class="ac-people-woman active"></li>
-		            <li class="ac-people-man"></li>
-		        </ul>
-		    </div>
-	        <div class="ac-form-element">
-				<span class="ac-form-index-text">Ваш вес (кг)</span>
-				<input type="text" name="text" placeholder="54" class="ac-form-index-input">
-			</div>
-			<div class="ac-form-element">
-				<span class="ac-form-index-text">Ваш рост (см)</span>
-				<input type="text" name="uname" placeholder="172" class="ac-form-index-input">
-			</div>
-			<div class="ac-form-button-box">
-				<input type="submit" class="ac-form-button" id="" value="РАСЧИТАТЬ">
-			</div>
-       </div>
-    </section>
-    <section class="mod-window-bottom">
-       <div class="ac-calc-box">
-			<div class="ac-form-result">
-				<span class="ac-people-span2">- 25 -</span>
-				<span class="ac-people-span3">ЛИШНИЙ ВЕС</span>
-				<p class="ac-people-text">Значение ИМТ в диапазоне 25 до 29,99 определяет наличие лишнего веса. Этот показатель – первый признак того, что вам необходимо задуматься о своем весе. Начните правильно питаться, постарайтесь снизить потребление сахара и повысить физическую активность. Снижение веса хорошо отразится не только на вашей внешности, но и улучшит ваше самочувствие. С продуктами Faberlic перестроить организм на сбалансированное питание проще, чем кажется!</p>
-				<div class="ac-soc-buttons">
-					<ul class="ac-soc-buttons-list">
-						<li><a href="#" class="ac-odn"></a></li>
-						<li><a href="#" class="ac-vk"></a></li>
-						<li><a href="#" class="ac-fc"></a></li>
-						<li><a href="#" class="ac-mail"></a></li>
-					</ul>
+	<div class="ac-wrapper-mod-window">	
+		<section class="mod-window-top">
+			<div class="container">
+				<div class="row">
+					<img src="img/calc-mod.png" alt="calc-mod" class="ac-people-calc">
+					<span class="ac-people-span4">Рассчитайте свой Индекс Массы Тела и узнайте, находится ли ваш вес в пределах нормы!</span>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<p class="ac-people-text acp-text">Индекс Массы Тела (ИМТ) показывает степень соответствия веса человека и его роста, позволяя оценить приблизительно нормальный вес у человека определенного роста. Этот показатель считается более достоверным, чем отдельно взятое значение веса.</p>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<p class="ac-people-text acp-text">Однако ИМТ не учитывает многих особенностей тела человека – например, люди, активно занимающиеся спортом, могут получить завышенное значение из-за большой мышечной массы. Поэтому результат ИМТ является не более чем рекомендацией и основой для понимания своего веса и дальнейшего прогресса.</p>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-
+		</section>
+		<section class="mod-window-middle">
+			<div class="ac-form-box">
+				<!-- <div class="ac-people">
+					<span class="ac-form-index-text">Ваш пол</span>
+			        <ul class="ac-people-list">
+			            <li class="ac-people-woman active"></li>
+			            <li class="ac-people-man"></li>
+			        </ul>
+			    </div> -->
+		        <div class="ac-form-element">
+					<span class="ac-form-index-text">Ваш вес (кг)</span>
+					<input type="text" name="text" placeholder="54" class="ac-form-index-input">
+				</div>
+				<div class="ac-form-element">
+					<span class="ac-form-index-text">Ваш рост (см)</span>
+					<input type="text" name="uname" placeholder="172" class="ac-form-index-input">
+				</div>
+				<div class="ac-form-button-box">
+					<input type="submit" class="ac-form-button" id="" value="РАСЧИТАТЬ">
+				</div>
+	       </div>
+	    </section>
+	    <section class="mod-window-bottom">
+	       <div class="ac-calc-box">
+				<div class="ac-form-result">
+					<span class="ac-people-span2">- 25 -</span>
+					<span class="ac-people-span3">ЛИШНИЙ ВЕС</span>
+					<p class="ac-people-text">Значение ИМТ в диапазоне 25 до 29,99 определяет наличие лишнего веса. Этот показатель – первый признак того, что вам необходимо задуматься о своем весе. Начните правильно питаться, постарайтесь снизить потребление сахара и повысить физическую активность. Снижение веса хорошо отразится не только на вашей внешности, но и улучшит ваше самочувствие. С продуктами Faberlic перестроить организм на сбалансированное питание проще, чем кажется!</p>
+					<div class="ac-soc-buttons">
+						<ul class="ac-soc-buttons-list">
+							<li><a href="#" class="ac-odn"><img src="img/mw-odnok.png" alt="mw-odnok"></a></li>
+							<li><a href="#" class="ac-vk"><img src="img/mw-vk.png" alt="mw-vk"></a></li>
+							<li><a href="#" class="ac-fc"><img src="img/mw-fc.png" alt="mw-fc"></a></li>
+							<li><a href="#" class="ac-mail"><img src="img/mw-mail.png" alt="mw-mail"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
 	<!-- *********************** IMT *********************** -->
 
 	

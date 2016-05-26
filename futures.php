@@ -4,10 +4,10 @@
 <section class="futures">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
-				<div class="future">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="future wow bounceInRight" data-wow-duration="0.5s">
 					<div class="futures__img-box">
-						<img src="img/fut1.png" alt="">
+						<img src="img/fut1.svg" alt="">
 					</div>		
 					<span id="canvas" class="futures__title">-Посчитайте свой ИМТ-</span>
 					<div class="futures__text">
@@ -18,10 +18,10 @@
 					<a href="#" class="button-1">Посчитать</a>
 				</div>
 			</div>
-			<div class="col-md-4">
-				<div class="future">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="future wow bounceInRight" data-wow-duration="1s">
 					<div class="futures__img-box">
-						<img src="img/fut2.png" alt="">
+						<img src="img/fut2.svg" alt="">
 					</div>		
 					<span class="futures__title">-Выберите программу-</span>
 					<div class="futures__text">
@@ -32,10 +32,10 @@
 					<a href="#" class="button-1">Выбрать</a>
 				</div>
 			</div>
-			<div class="col-md-4">
-				<div class="future">
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<div class="future wow bounceInRight" data-wow-duration="1.5s">
 					<div class="futures__img-box">
-						<img src="img/fut3.png" alt="">
+						<img src="img/fut3.svg" alt="">
 					</div>		
 					<span class="futures__title">-Узнайте о продуктах-</span>
 					<div class="futures__text">

@@ -85,7 +85,6 @@ to {left: 0px;}
 
 .menu-menu {
     cursor: pointer;
-    
     display: block;
     color: #fff;
     font-family: "MyriadPro-Regular";
@@ -249,8 +248,8 @@ h1{
     color: #fff;
     //width: 125px;
     padding: 0 20px;
-    height: 40px;
-    line-height: 40px;
+    height: 93px;
+    line-height: 93px;
     text-align: center;
     cursor: pointer;
     text-transform: uppercase;
@@ -281,13 +280,15 @@ h1{
     padding-bottom: 53px;
 }
 .ae__margin6{
-   padding-bottom: 40px;
+   margin-bottom: 40px;
+   padding-bottom: 0;
 }
 .ae-menu__margin2{
     display: none;
 }
 .ae-menu__margin2-show{
     display:block;
+
 }
 .ae-menu_style:hover{
     background: #e6f4ed;
@@ -491,7 +492,9 @@ h1{
     display: none;
 }
 /**/
-
+.ae-hide-show{
+    display: none;
+}
 
 
 
@@ -583,6 +586,7 @@ h1{
 }
 .ae__margin6{
     margin-top: 0px;
+
 }
 .ae-relative{
     position: relative;
@@ -593,6 +597,7 @@ h1{
 }
 .ae-menu__margin2{
     display: inline-block;
+
 }
 .ae-menu__margin2-show{
     display: inline-block;
@@ -611,14 +616,21 @@ h1{
 }
 
 .ae-hide-show{
-   // display: block;
+    display: block;
 }
 .menu-item:last-child{
     display: none;
 }
 
-
-
+.ae__margin6{
+   margin-bottom: 0px;
+   padding-bottom: 40px;
+}
+.ae-menu{
+    height: 40px;
+    line-height: 40px;
+    
+}
 
 }
 
@@ -732,13 +744,8 @@ h1{
 .ae-relative-temp{
     height: 369px;
 }
-.ae__margin6{
-   margin-bottom: 40px;
-   padding-bottom: 0;
-}
-.ae-hide-show{
-    display: none;
-}
+
+
 }
 
 /* Extra Small Devices, Phones */

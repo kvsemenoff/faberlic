@@ -37,8 +37,8 @@
 	<section class="acceleration">	
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<img src="img/speedometr.png" alt="">
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<img src="img/speedometr.png" alt="" class="speedometr">
 					<h1>Ускорение</h1>
 
 					<div class="header-sub-text">
@@ -46,6 +46,8 @@
 результат и готов активно работать <br>
 над собой				
 					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
 					<img src="img/tetka.png" alt="" class="acceleration-tetka">
 				</div>
 			</div>

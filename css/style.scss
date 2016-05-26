@@ -58,7 +58,7 @@ h1{
 	width: 121px;
 	height: 38px;
 	line-height: 38px;
-	border: 1px solid #9ac7d0;
+	border: 1px solid #14b2cc;
 	font-size: 14px;
 	text-align: center;
 	transition: 0.5;
@@ -68,7 +68,7 @@ h1{
 	color: #000;
 }
 .button-1:hover{
-	background: #9ac7d0;
+	background: #14b2cc;
 	color: #fff;
 }
 /***********/
@@ -110,18 +110,18 @@ h1{
 .acceleration{
 	width: 100%;
 	background: #c8db8c;
-	padding: 50px 0px;
-	height: 455px;
-	.container{
-		position: relative;
+	//padding: 50px 0px;
+	padding-top: 50px;
+	//height: 455px;
 
-	}
 }
 .acceleration-tetka{
 	display: block;
-	position: absolute;
-	right: 0px;
-	bottom: -120px;
+	margin: 0 auto;
+	margin-top: 10px;
+	//position: absolute;
+	//right: 0px;
+	//bottom: -120px;
 }
 
 .acc-middle-text{
@@ -211,7 +211,9 @@ h1{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	.acceleration{
+		text-align: center;
+	}
 }
 
 /* Small Devices, Tablets */

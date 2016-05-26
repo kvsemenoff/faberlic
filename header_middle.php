@@ -2,10 +2,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-7 col-md-push-5 col-sm-6 col-sm-push-6 col-xs-12">  <!-- col-sm-7 col-sm-push-5 -->
-				<div class="header_middle-left">
-					<span class="header_middle-span1">Простой путь</span>
-					<span class="header_middle-span2">К стройности</span>
-					<span class="header_middle-span3">
+				<div class="header_middle-left wow bounceIn" data-wow-duration="2s">
+					<span class="header_middle-span1">Простой путь<br><span>к стройности</span></span>
+<!-- 					<span class="header_middle-span2">К стройности</span>
+ -->					<span class="header_middle-span3">
 						3 варианта Программы Управления весом для разных людей и разных потребностей
 					</span>
 				</div>

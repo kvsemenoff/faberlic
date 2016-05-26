@@ -87,7 +87,7 @@
 		</div>
 	</div>
 
-<div class="ae-hide-show">
+<div class="ae-hide-show ae__margin4">
 	<div class="container">
 		<div class="row">
 			<div class="ae-center
@@ -116,7 +116,7 @@
 </section>
 	
 <section class="">
-	<div class="ae ae__margin4">
+	<div class="ae">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -131,7 +131,7 @@
 		</div>
 	</div>
 
-	<div class="ae-hide-show">
+	<div class="ae-hide-show ae__margin">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-offset-1 col-md-10 col-md-offset-1">
@@ -167,7 +167,7 @@
 
 <section class="">
 
-	<div class="ae ae__margin">
+	<div class="ae">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -183,7 +183,7 @@
 	</div>
 
 	
-	<div class="ae-hide-show">
+	<div class="ae-hide-show ae__margin2">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-offset-1 col-md-10 col-md-offset-1">
@@ -200,7 +200,7 @@
 
 <section class="">
 
-	<div class="ae ae__margin2">
+	<div class="ae">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">

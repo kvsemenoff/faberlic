@@ -10,8 +10,9 @@
 						<ul class="menu-list-unpressed">
 							<li class="menu-item"><a href="#" class="menu-item__link">ПРОГРАММЫ</a></li>
 							<li class="menu-item"><a href="#" class="menu-item__link">ПРОДУКЦИЯ</a></li>
-							<li class="menu-item"><a href="#" class="menu-item__link">ПОЛЕЗНЫЕ СОВЕТЫ</a></li>
+							<li class="menu-item"><a href="#" class="menu-item__link active">ПОЛЕЗНЫЕ СОВЕТЫ</a></li>
 							<li class="menu-item"><a href="#" class="menu-item__link">ОТЗЫВЫ</a></li>
+							<li class="menu-item"><a href="#" class="menu-item__link">РЕГИСТРАЦИЯ</a></li>
 						</ul>
 					</div>
 				</div>

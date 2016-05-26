@@ -403,17 +403,36 @@
 // *********************** soveti.php ***********************
 
 // *********************** IMT ***********************
-.mod-window-top{
+.ac-wrapper-mod-window{
+    max-height: 846px;
+    padding: 55px 0px 33px 0px;
     border: 1px solid #ccc;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.125);
+}
+.mod-window-top{
     text-align: center;
 }
 .mod-window-middle{
     background-color: #14b2cc;
+    max-height: 197px;
+    padding: 40px 0 66px 0;
 }
 .ac-people-span4{
     display: block;
+    font-family: "Myriad-Pro-Light-SemiExtended";
+    font-size: 24px;
+    line-height: 30px;
+    color: #000;
+    margin-top: 23px;
 }
-.ac-people-text1{
+.ac-people-text{
+    display: block;
+    font-family: "MyriadPro-Regular";
+    font-size: 16px;
+    line-height: 25px;
+    margin: 35px 0px;
+}
+.acp-text{
     text-align: left;
 }
 .ac-calc-box{
@@ -452,6 +471,25 @@
 .ac-form-index-text{
     display: block;
     margin-bottom: 17px;
+    font-family: "MyriadPro-Regular";
+    font-size: 15.95px;
+    line-height: 24.93px;
+    color: #096170;
+}
+.ac-people-span2{
+    display: block;
+    font-family: "MyriadPro-Light";
+    font-size: 36px;
+    line-height: 24.93px;
+    margin-top: 30px;
+
+}
+.ac-people-span3{
+    display: block;
+    font-family: "Myriad-Pro-Light-SemiExtended";
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 15px;
 }
 .ac-form-element{
     display: table-cell;
@@ -486,6 +524,15 @@
     width: 143px;
     height: 55px;
 }
+.ac-soc-buttons-list{
+    display: block;
+    text-align: center;
+    li{
+        display: inline-block;
+        margin-left: 10px;
+    }
+}
+
 // *********************** IMT ***********************
 
 /*==========  Desktop First Method  ==========*/

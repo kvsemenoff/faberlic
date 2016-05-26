@@ -1,42 +1,42 @@
 .header_middle {
   background-color: #00B3CE;
-  padding-top: 32px;
   position: relative; }
 
 .header_middle-right {
-  width: 100%; }
+  position: relative;
+  padding-top: 20px; }
+
+.header_middle-left {
+  text-align: center; }
 
 .header_middle-span1 {
-  display: block;
+  font-size: 99.74px;
+  line-height: 95px;
+  letter-spacing: .05em;
+  margin-top: 107px;
+  display: inline-block;
   font-family: "MyriadPro-Cond";
-  font-size: 60px;
-  line-height: 60px;
   color: #fff;
   text-transform: uppercase;
   text-align: center; }
-
-.header_middle-span2 {
-  display: block;
-  font-family: "MyriadPro-Cond";
-  font-size: 45px;
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center; }
+  .header_middle-span1 span {
+    font-size: 81.12px;
+    letter-spacing: .05em; }
 
 .header_middle-span3 {
   display: block;
   font-family: "Myriad-Pro-Light-SemiExtended";
-  font-size: 18px;
+  font-size: 24px;
+  line-height: 36px;
   color: #fff;
-  text-align: justify;
-  margin: 30px 0px;
-  padding: 0px 15px; }
+  margin-top: 30px; }
 
 .header_middle-span3__programs {
   font-family: "MyriadPro-Regular"; }
 
 .header_middle-women {
-  width: 100%;
+  display: block;
+  max-width: 80%;
   height: auto; }
 
 .program-cell {
@@ -420,16 +420,57 @@
 .ac-form-element {
   display: table-cell;
   text-align: left;
-  vertical-align: top; }
+  vertical-align: top;
+  padding-left: 30px; }
 
 .ac-form-button-box {
   display: table-cell;
-  vertical-align: bottom; }
+  vertical-align: bottom;
+  padding-left: 30px; }
+
+.ac-form-button {
+  display: inline-block;
+  width: 170px;
+  height: 55px;
+  border: 1px solid white;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  background-color: #14B2CC;
+  font-family: "MyriadPro-Regular";
+  font-size: 14px;
+  letter-spacing: .1em;
+  transition: 0.8; }
+
+.ac-form-button:hover {
+  background: #0E3F58;
+  color: #fff; }
+
+.ac-form-index-input {
+  width: 143px;
+  height: 55px; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .header_middle-span1 {
+    line-height: 50px;
+    font-size: 50px; }
+    .header_middle-span1 span {
+      font-size: 40px; } }
 /* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .header_middle-span1 {
+    font-size: 50px;
+    line-height: 50px; }
+    .header_middle-span1 span {
+      font-size: 35px; }
+
+  .header_middle-women {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 20px; } }
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
 /*==========  Mobile First Method  ==========*/
@@ -437,15 +478,6 @@
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
-  .header_middle-span1 {
-    margin-top: 50px; }
-
-  .header_middle-span2 {
-    margin-top: 10px; }
-
-  .header_middle-span3 {
-    margin-top: 10px; }
-
   .program_item-link {
     font-size: 24.5px;
     padding: 15px 15px; }
@@ -459,10 +491,6 @@
     margin-bottom: 20px; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
-  .header_middle-span3 {
-    text-align: center;
-    padding: 0px; }
-
   .program-cell {
     float: left;
     width: 33.3%; }
@@ -473,10 +501,6 @@
   .program-cell2 {
     width: 33.3%; }
 
-  .header_middle-women {
-    width: 352px;
-    height: 556px; }
-
   .header_middle-women__programs {
     width: 232px;
     height: 343px;
@@ -486,10 +510,6 @@
     width: 329px;
     height: 373px;
     margin: 35px 0px 0px 45px; }
-
-  .header_middle-span1 {
-    font-size: 99.74px;
-    margin-top: 107px; }
 
   .header_middle-span1__programs {
     font-size: 72.14px;
@@ -504,10 +524,6 @@
   .header_middle-span2 {
     font-size: 81.12px;
     margin-top: 47px; }
-
-  .header_middle-span3 {
-    font-size: 24px;
-    margin-top: 34px; }
 
   .header_middle-span3__programs {
     font-size: 18px;

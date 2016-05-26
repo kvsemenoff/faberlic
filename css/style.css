@@ -52,13 +52,17 @@ h1 {
 
 .button-1 {
   display: inline-block;
-  width: 120px;
+  width: 121px;
   height: 38px;
   line-height: 38px;
   border: 1px solid #9ac7d0;
   font-size: 14px;
   text-align: center;
-  transition: 0.5; }
+  transition: 0.5;
+  box-sizing: border-box;
+  font-family: "MyriadPro-Regular";
+  letter-spacing: .1em;
+  color: #000; }
 
 .button-1:hover {
   background: #9ac7d0;
@@ -81,15 +85,19 @@ h1 {
 .futures__title {
   display: block;
   color: #212b4d;
-  font-size: 24px; }
+  font-size: 24px;
+  font-family: "MyriadPro-Cond";
+  text-transform: uppercase;
+  letter-spacing: .05em; }
 
 .futures__text {
   min-height: 60px;
   font-size: 16px;
   line-height: 25px;
-  margin-bottom: 5px;
+  margin-bottom: 14px;
   color: #000;
-  opacity: 0.8; }
+  opacity: 0.8;
+  font-family: "MyriadPro-Regular"; }
 
 /**==**/
 .acceleration {

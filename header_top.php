@@ -25,7 +25,8 @@
 				
 				<div class="hidden-xs col-sm-3 col-md-4 col-lg-3">
 				<div class="register-box">
-					<a href="#" class="header-top__login">РЕГИСТРАЦИЯ <span class="fab-hid-sm fab-vis-md">В ПРОГРАММЕ</span></a>
+					<a href="#" class="header-top__login">
+					<span class="hover-hover">РЕГИСТРАЦИЯ <span class="fab-hid-sm fab-vis-md">В ПРОГРАММЕ</span></span></a>
 					</div>
 				</div>
 			</div>

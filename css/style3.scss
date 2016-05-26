@@ -13,7 +13,10 @@ from {left: -201px;}
 to {left: 0px;}
 }
     
-
+@keyframes shadow2 {
+from {left: 0px;}
+to {left: -201px;}
+}
 //.mask { position:absolute; left:0; top:0;  z-index:9000; height: 100%; width: 100%; background-color:rgba(0,0,0,.5);  display:block; outline: 10px solid #000;}
 
 .bodyPad {
@@ -78,6 +81,21 @@ to {left: 0px;}
     line-height: 30px !important;
 }
 
+.header-top__menu-pressed2 {
+    position: fixed;
+    width: 201px;
+    height: 100%;
+    animation: shadow2  1s 1 ease-in-out;
+    left: -201px;
+    top: 0px;
+    z-index: 10000;
+    padding: 0 0 0 15px;
+    color: #fff;
+    background: #f22e89;
+    display: block;
+    line-height: 30px !important;
+}
+
 .header-top__menu-unpressed {
     text-align: center;
     
@@ -103,6 +121,10 @@ to {left: 0px;}
     margin-top: 20px;
     display: block;
     margin-right: 0px;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    text-align: center;
+    width: 169px;
 }
 
 .menu-item {
@@ -130,9 +152,13 @@ to {left: 0px;}
     font-size: 12px;
     letter-spacing: .1em;
     font-family: "MyriadPro-Regular";
+    width:100%;
+    height:100%;
+    //position:relative;
 }
 
 .register-box{
+    //position: relative;
     width:100%;
     border-left: 1px solid #f997c4;
     border-right: 1px solid #f997c4;
@@ -288,7 +314,7 @@ h1{
 }
 .ae-menu__margin2-show{
     display:block;
-
+    
 }
 .ae-menu_style:hover{
     background: #e6f4ed;
@@ -601,6 +627,7 @@ h1{
 }
 .ae-menu__margin2-show{
     display: inline-block;
+
 }
 
 .ae-button2 {
@@ -631,7 +658,18 @@ h1{
     line-height: 40px;
     
 }
+.hover-hover{
+ position:relative;   
+}
 
+    .hover-hover:hover::before{
+            content: '';
+            position: absolute;
+            width: 100%;
+            border: 1px solid #fff;
+            top: 39px;
+
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -650,8 +688,11 @@ h1{
         display: inline-block;
         line-height: 20px !important;
     }
+
     .menu-item{
-        .menu-item__link:hover::before, .active::before{
+        .menu-item__link:hover::before,
+        .active::before
+        {
             content: '';
             position: absolute;
             width: 100%;

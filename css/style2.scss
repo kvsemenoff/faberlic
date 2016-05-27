@@ -307,6 +307,11 @@
     color: #8b8b8b;
     margin: 20px;
 }
+.ac-link-span{
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
 
 // *********************** programs.php ***********************
 
@@ -426,7 +431,7 @@
     text-align: center;
 }
 .acp-text320{
-    // text-align: center;
+    margin: 28px 0px 45px 0px;
 }
 .ac-calc-box{
     text-align: center;
@@ -531,12 +536,16 @@ input[type="text"]{
 .ac-soc-buttons-list{
     display: block;
     text-align: center;
+    padding: 0px 30px; //************
     li{
         display: inline-block;
         margin-left: 10px;
+        margin-top: 15px; //*********
     }
 }
-
+.ac-form-result{
+    margin-bottom: 35px;
+}
 // *********************** IMT ***********************
 
 /*==========  Desktop First Method  ==========*/
@@ -689,7 +698,10 @@ input[type="text"]{
     .ac-row_link{
         width: 360px;
         height: 55px;
-        padding: 18px 0px;
+        padding: 0px; //***
+        line-height: 55px; //***
+        display: inline-block; //***
+        //padding: 18px 0px;
     }
     .program_item-pinklink{
         width: 335px;
@@ -759,7 +771,12 @@ input[type="text"]{
         height: 55px;
         margin-top: 0px;
     }
-
+    .ac-soc-buttons-list{
+        padding: 0px 0px; //************
+        li{
+            margin-top: 0px; //*********
+        }
+    }
 }
 
  /* Large Devices, Wide Screens */

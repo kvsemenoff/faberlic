@@ -587,15 +587,20 @@ input[type="text"]{
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-    
+    .ac-form-element{
+        margin: 0px 7px;
+    }
+    .ac-form-index-text{
+        margin-top: 5px;
+    }
 }
 
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-    .ac-margin-right{
-        margin-right: 0px;
+     .ac-form-element{
+        margin: 0px 12px;
     }
 }
 

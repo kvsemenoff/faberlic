@@ -36,7 +36,7 @@
 
 
 		$(document).ready(function(){
-			
+			//alert(1);
 			var acProgram = new Array(8);
 			var acStep = 1;
 
@@ -44,16 +44,31 @@
 			var ac_left_arrow = $('.ac-circle-left img');
 			var ac_right_arrow = $('.ac-circle-right img');
 			var ac_question = $('.ac-question');
+			var program_item_pinklink = $('.program_item-pinklink');
+			var header_middle_span4__programs = $('.header_middle-span4__programs');
+			var program_cell = $('.program-cell');
 			acClear = function(){ac_row_link.removeClass('ac-row_link-hover');}
 			acRecall = function(){
 				acClear();
 				$('.ac-row_link[datanumber=' + acProgram[acStep-1] + ']').addClass('ac-row_link-hover');
 			}
 			isFull = function(){
-				for (var i=0; i<acProgram.length; i++){
+				for (var i = 0; i < acProgram.length; i++){
 					if (isNaN(acProgram[i])){return false;}
 				}
 				return true;
+			}
+			summ = function(){
+				var n = 0;
+				for (var i = 0; i < acProgram.length; i++){
+					n += parseInt(acProgram[i]);
+				}
+				return n;
+			}
+			hideBlocks = function(){
+				program_item_pinklink.addClass('ae-dispnone');
+				header_middle_span4__programs.addClass('ae-dispnone');
+				program_cell.addClass('ae-dispnone');
 			}
 
 			ac_right_arrow.click(function(){
@@ -88,11 +103,35 @@
 			 	acProgram[acStep-1]=$(this).attr('datanumber');
 			 	$(this).addClass('ac-row_link-hover');
 			 	if (isFull()){
-			 		alert(1);
+			 		var acSumm = summ();
+			 		$('.ac-block1').slideUp('fast');
+			 		hideBlocks();
+			 		//$('.ac-block1').removeClass('ae-dispnone');
+			 		if (acSumm >= 8 && acSumm <= 13){
+						program_item_pinklink.eq(0).removeClass('ae-dispnone');
+						header_middle_span4__programs.eq(0).removeClass('ae-dispnone');
+						program_cell.eq(0).removeClass('ae-dispnone');
+						program_cell.eq(2).removeClass('ae-dispnone');
+			 		}else if(acSumm >= 14 && acSumm <= 17){
+			 			program_item_pinklink.eq(2).removeClass('ae-dispnone');
+						header_middle_span4__programs.eq(1).removeClass('ae-dispnone');
+						program_cell.eq(0).removeClass('ae-dispnone');
+						program_cell.eq(1).removeClass('ae-dispnone');
+			 		}else if(acSumm >= 18 && acSumm <= 24){
+			 			program_item_pinklink.eq(0).removeClass('ae-dispnone');
+						header_middle_span4__programs.eq(2).removeClass('ae-dispnone');
+						program_cell.eq(1).removeClass('ae-dispnone');
+						program_cell.eq(2).removeClass('ae-dispnone');
+			 		}else if(acSumm >= 25 && acSumm <= 28){
+			 			program_item_pinklink.eq(1).removeClass('ae-dispnone');
+						header_middle_span4__programs.eq(3).removeClass('ae-dispnone');
+						program_cell.eq(0).removeClass('ae-dispnone');
+						program_cell.eq(2).removeClass('ae-dispnone');
+			 		}
+			 		$('.ac-block1').slideDown('fast');
 			 	}
 			});
 			
-
 
 		});
 	</script>
@@ -290,19 +329,26 @@
 	</div>
 </section>
 
-<section class="ac-block1">
+<section class="ac-block1 ae-dispnone">
 	<div class="container">
 		<div class="row ac-row-block">
 			<div class="col-md-2 ac-row-block1">
-				<a href="#" class="ac-circle-left"><img src="img/arrow-in-circle-left.png" alt="arrow-in-circle-left"></a>
+				<!-- <a href="#" class="ac-circle-left"><img src="img/arrow-in-circle-left.png" alt="arrow-in-circle-left"></a> -->
 			</div>
 			<div class="col-md-8 ac-block2">
 				<span class="ac-row_span ac-span">Мы рекомендуем вам попробовать программу: </span>
-				<a href="#" class="program_item-pinklink">Перезагрузка</a>
-				<p class="header_middle-span4__programs">Вероятнее всего, у вас есть лишний вес, от которого вы хотели бы избавиться. И начать необходимо с перестройки вашего рациона без стресса для организма – 5-разовое питание полезными блюдами вместо вредных жиров и сахара. Постепенно лишние килограммы уйдут, а самочувствие улучшится. А главное, появится привычка правильно питаться, так что проблема лишнего веса навсегда останется в прошлом.</p>
+				<a href="#" class="program_item-pinklink ae-dispnone">Перезагрузка</a>
+				<a href="#" class="program_item-pinklink program_item-pinklink_style3 ae-dispnone">Ускорение</a>
+				<a href="#" class="program_item-pinklink program_item-pinklink_style2 ae-dispnone">Разгрузочный день</a>
+				
+				<p class="header_middle-span4__programs ae-dispnone">Несмотря на то, что скорее всего у вас нет лишнего веса, ваше питание не слишком сбалансированно. Поэтому вам может не хватать многих питательных элементов, часто можете чувствовать упадок сил и отсутствие тонуса. Перезагрузка организма на правильный рацион, богатый необходимыми макронутриентами, витаминами и минералами, позволит вам улучшить свое самочувствие и почувствовать себя готовыми к любым свершениям.</p>
+				<p class="header_middle-span4__programs ae-dispnone">Скорее всего вы вполне довольны своим весом, вы регулярно питаетесь и ведете активный образ жизни. Но организму надо периодически давать передышку, чтобы он продолжал работать как часы. Периодические разгрузочные дни позволят избавиться от ощущения тяжести и очистить организм, при этом не лишая его необходимых питательных элементов.</p>
+				<p class="header_middle-span4__programs ae-dispnone">Вероятнее всего, у вас есть лишний вес, от которого вы хотели бы избавиться. И начать необходимо с перестройки вашего рациона без стресса для организма – 5-разовое питание полезными блюдами вместо вредных жиров и сахара. Постепенно лишние килограммы уйдут, а самочувствие улучшится. А главное, появится привычка правильно питаться, так что проблема лишнего веса навсегда останется в прошлом.</p>
+				<p class="header_middle-span4__programs ae-dispnone">Судя по всему, у вас есть лишний вес, и начинать работу над собой необходимо как можно скорее. Снижение веса не только хорошо повлияет на ваш внешний вид, но и значительно улучшит самочувствие. Комбинированная программа, чередующая полноценное 5-разовое питание и разгрузочные дни, поможет вам добиться ускоренных результатов.</p>
+
 			</div>
 			<div class="col-md-2 ac-row-block1">
-				<a href="#" class="ac-circle-right"><img src="img/arrow-in-circle-right.png" alt="arrow-in-circle-right"></a>
+				<!-- <a href="#" class="ac-circle-right"><img src="img/arrow-in-circle-right.png" alt="arrow-in-circle-right"></a> -->
 			</div>	
 		</div>
 	</div>
@@ -310,7 +356,7 @@
 
 <!-- *********************** middle-box ***********************-->
 
-<div class="program-cell">
+<div class="program-cell ae-dispnone">
 	<div class="program_item">
 		<div class="program_item__img-box">
 			<img src="img/program-img.png" alt="program-img" class="program_item__imgtop">
@@ -324,7 +370,7 @@
 		<div class="program_item-button"></div>  <!-- Указать существующий класс кнопки -->
 	</div>
 </div>
-<div class="program-cell program-cell1">
+<div class="program-cell program-cell1 ae-dispnone">
 	<div class="program_item program_item1">
 		<div class="program_item__img-box">
 			<img src="img/program-img1.png" alt="program-img1" class="program_item__imgtop">
@@ -338,7 +384,7 @@
 		<div class="program_item-button"></div>  <!-- Указать существующий класс кнопки -->
 	</div>
 </div>
-<div class="program-cell program-cell2">
+<div class="program-cell program-cell2 ae-dispnone">
 	<div class="program_item program_item2">
 		<div class="program_item__img-box">
 			<img src="img/program-img2.png" alt="program-img2" class="program_item__imgtop">

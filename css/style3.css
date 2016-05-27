@@ -8,6 +8,12 @@
     background: url(../img/true-circle.png) center center no-repeat;
     margin-right: 10px; }
 
+.program_item-pinklink_style2 {
+  background-color: #bbcf7c; }
+
+.program_item-pinklink_style3 {
+  background-color: #f4ca64; }
+
 @keyframes shadow {
   from {
     padding-left: 0px; }

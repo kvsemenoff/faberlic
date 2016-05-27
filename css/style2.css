@@ -186,7 +186,9 @@
     width: 18px;
     height: 18px;
     background: url(../img/true-circle.png) center center no-repeat;
-    margin-right: 10px; }
+    margin-right: 10px;
+    line-height: normal;
+    vertical-align: middle; }
 
 .ac-block1 {
   padding-top: 10px; }

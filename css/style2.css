@@ -466,11 +466,7 @@
 .ac-form-element {
   display: inline-block;
   text-align: left;
-  vertical-align: top;
-  margin-right: 30px; }
-
-.ac-margin-right {
-  margin-right: 0px; }
+  vertical-align: top; }
 
 .ac-form-button-box {
   display: inline-block;
@@ -542,6 +538,12 @@ input[type="text"] {
 /* Custom, iPhone Retina */
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  .ac-margin-right {
+    margin-right: 0px; }
+
+  .ac-form-element {
+    margin-right: 0px; } }
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
@@ -555,7 +557,10 @@ input[type="text"] {
 
   .ac-rev-cell {
     padding: 50px 30px;
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+
+  .ac-form-element {
+    margin-right: 30px; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .program-cell {
@@ -690,8 +695,7 @@ input[type="text"] {
 
   .ac-form-element {
     display: table-cell;
-    padding-left: 30px;
-    margin-right: 0px; }
+    padding-left: 30px; }
 
   .ac-form-button-box {
     display: table-cell;

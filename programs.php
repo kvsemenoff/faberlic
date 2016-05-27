@@ -29,9 +29,74 @@
 	<script>
     	new WOW().init();
     </script>
-	<script src="js/jquery.maskedinput.min.js"></script>
-	<script src="js/parallax.min.js"></script>
+
+	<script src="js/responsiveTabs.js"></script>
 	<script src="js/common.js"></script>
+	<script>
+
+
+		$(document).ready(function(){
+			
+			var acProgram = new Array(8);
+			var acStep = 1;
+
+			var ac_row_link = $('.ac-row_link');
+			var ac_left_arrow = $('.ac-circle-left img');
+			var ac_right_arrow = $('.ac-circle-right img');
+			var ac_question = $('.ac-question');
+			acClear = function(){ac_row_link.removeClass('ac-row_link-hover');}
+			acRecall = function(){
+				acClear();
+				$('.ac-row_link[datanumber=' + acProgram[acStep-1] + ']').addClass('ac-row_link-hover');
+			}
+			isFull = function(){
+				for (var i=0; i<acProgram.length; i++){
+					if (isNaN(acProgram[i])){return false;}
+				}
+				return true;
+			}
+
+			ac_right_arrow.click(function(){
+				if (acStep < acProgram.length){
+					acStep++;
+					ac_question.eq(acStep-1).removeClass('ae-dispnone').prev().addClass('ae-dispnone');
+					$('.ac-list__item-active').removeClass('ac-list__item-active').next().addClass('ac-list__item-active');
+					acRecall();
+					if (acStep == acProgram.length){
+						ac_right_arrow.addClass('ae-dispnone');
+					} else {
+						ac_left_arrow.removeClass('ae-dispnone');
+					}
+				}
+			});
+			ac_left_arrow.click(function(){
+				if (acStep > 1){
+					acStep--;
+					ac_question.eq(acStep-1).removeClass('ae-dispnone').next().addClass('ae-dispnone');
+					$('.ac-list__item-active').removeClass('ac-list__item-active').prev().addClass('ac-list__item-active');
+					acRecall();
+					if (acStep == 1){
+						ac_left_arrow.addClass('ae-dispnone');
+					} else {
+						ac_right_arrow.removeClass('ae-dispnone');
+					}
+
+				}
+			});
+			ac_row_link.click(function(){
+			 	acClear();
+			 	acProgram[acStep-1]=$(this).attr('datanumber');
+			 	$(this).addClass('ac-row_link-hover');
+			 	if (isFull()){
+			 		alert(1);
+			 	}
+			});
+			
+
+
+		});
+	</script>
+
 
 	<?php require_once('header_top.php'); ?>
 
@@ -66,42 +131,143 @@
 
 <!-- *********************** middle-box ***********************-->
 
-<section class="ac-additional-block">
+<section  id="justID" class="ac-additional-block">
 	<div class="container">
 		<div class="ac-additional-borderbox">
 			<img src="img/question.png" alt="question" class="ac-borderbox-img">
 			<span class="ac-borderbox-span">Пройдите тест и подберите Программу Управления весом специально для вас!</span>
 			<ul class="ac-list">
-				<li class="ac-list__item">1</li>
-				<li class="ac-list__item ac-list__item-active">2</li>
+				<li class="ac-list__item ac-list__item-active">1</li>
+				<li class="ac-list__item">2</li>
 				<li class="ac-list__item">3</li>
 				<li class="ac-list__item">4</li>
 				<li class="ac-list__item">5</li>
 				<li class="ac-list__item">6</li>
 				<li class="ac-list__item">7</li>
+				<li class="ac-list__item">8</li>
 			</ul>
 		</div>
 		<div class="row ac-row-block">
 			<div class="col-md-2 ac-row-block1">
-				<a href="#" class="ac-circle-left"><img src="img/arrow-in-circle-left.png" alt="arrow-in-circle-left"></a>
+				<a href="#justID" class="ac-circle-left"><img class="ae-dispnone" src="img/arrow-in-circle-left.png" alt="arrow-in-circle-left"></a>
 			</div>
 			<div class="col-md-8 col-sm-12 col-xs-12 ac-row-block2">
-				<span class="ac-row_span">Как вы оцениваете ваш вес?</span>
-				<div class="col-md-6 col-sm-12 col-xs-12">
-					<a href="#" class="ac-row_link"><span class="ac-link-span"><span class="ac-link-img"></span>Я вешу намного больше, чем хотелось бы</span></a>
+				
+				<div class="ac-question">
+					<span class="ac-row_span">Какой ваш Индекс массы тела?</span>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-span"><span class="ac-link-img"></span>ИМТ < 18,5 </span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">ИМТ 18,5 - 24,99 </span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">ИМТ 25 - 29,99</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-img"></span><span class="ac-link-span">ИМТ > 30 </span></a>
+					</div>
 				</div>
-				<div class="col-md-6 col-sm-12 col-xs-12">
-					<a href="#" class="ac-row_link"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу немного больше, чем хотелось бы</span></a>
+
+				<div class="ac-question ae-dispnone">
+					<span class="ac-row_span">Как вы оцениваете ваш вес2?</span>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-span"><span class="ac-link-img"></span>Я вешу намного больше, чем хотелось бы</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу немного больше, чем хотелось бы</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">Меня устраивает свой вес</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу меньше, чем хотелось бы</span></a>
+					</div>
 				</div>
-				<div class="col-md-6 col-sm-12 col-xs-12">
-					<a href="#" class="ac-row_link"><span class="ac-link-img"></span><span class="ac-link-span">Меня устраивает свой вес</span></a>
+
+				<div class="ac-question ae-dispnone">
+					<span class="ac-row_span">Как вы оцениваете ваш вес3?</span>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-span"><span class="ac-link-img"></span>Я вешу намного больше, чем хотелось бы</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу немного больше, чем хотелось бы</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">Меня устраивает свой вес</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу меньше, чем хотелось бы</span></a>
+					</div>
 				</div>
-				<div class="col-md-6 col-sm-12 col-xs-12">
-					<a href="#" class="ac-row_link"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу меньше, чем хотелось бы</span></a>
-				</div>	
+
+				<div class="ac-question ae-dispnone">
+					<span class="ac-row_span">Как вы оцениваете ваш вес3?</span>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-span"><span class="ac-link-img"></span>Я вешу намного больше, чем хотелось бы</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу немного больше, чем хотелось бы</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">Меня устраивает свой вес</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу меньше, чем хотелось бы</span></a>
+					</div>
+				</div>
+
+				<div class="ac-question ae-dispnone">
+					<span class="ac-row_span">Как вы оцениваете ваш вес3?</span>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-span"><span class="ac-link-img"></span>Я вешу намного больше, чем хотелось бы</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу немного больше, чем хотелось бы</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">Меня устраивает свой вес</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу меньше, чем хотелось бы</span></a>
+					</div>
+				</div>
+
+				<div class="ac-question ae-dispnone">
+					<span class="ac-row_span">Как вы оцениваете ваш вес3?</span>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-span"><span class="ac-link-img"></span>Я вешу намного больше, чем хотелось бы</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу немного больше, чем хотелось бы</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">Меня устраивает свой вес</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу меньше, чем хотелось бы</span></a>
+					</div>
+				</div>
+
+				<div class="ac-question ae-dispnone">
+					<span class="ac-row_span">Как вы оцениваете ваш вес3?</span>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-span"><span class="ac-link-img"></span>Я вешу намного больше, чем хотелось бы</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу немного больше, чем хотелось бы</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">Меня устраивает свой вес</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу меньше, чем хотелось бы</span></a>
+					</div>
+				</div>
+
 			</div>
 			<div class="col-md-2 ac-row-block3">
-				<a href="#" class="ac-circle-right"><img src="img/arrow-in-circle-right.png" alt="arrow-in-circle-right"></a>
+				<a href="#justID" class="ac-circle-right"><img src="img/arrow-in-circle-right.png" alt="arrow-in-circle-right"></a>
 			</div>
 		</div>
 	</div>

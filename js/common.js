@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
     RESPONSIVEUI.responsiveTabs();
-    
+  
     $('.menu-menu').click(function(){
         $('.header-top__menu-unpressed').toggleClass('header-top__menu-pressed');
         
@@ -99,7 +99,7 @@ $(document).ready(function(){
         $(this).hide();
         $('.window').hide();
     }); 
-
+    
 // ******************* Карусель для Главной страницы ********************
     $('.homepage-slider').owlCarousel({
         loop: true,

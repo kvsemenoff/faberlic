@@ -1,3 +1,13 @@
+.ac-row_link-hover {
+  background-color: #14b2cc;
+  color: #fff; }
+  .ac-row_link-hover .ac-link-img {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../img/true-circle.png) center center no-repeat;
+    margin-right: 10px; }
+
 @keyframes shadow {
   from {
     padding-left: 0px; }

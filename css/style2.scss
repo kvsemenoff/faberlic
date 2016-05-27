@@ -2,12 +2,9 @@
 // *********************** header_middle ***********************
 .header_middle{
     background-color: #00B3CE;
-    // padding-top: 32px;
     position: relative;
-    // max-height: 575px;
 }
 .header_middle-right{
-    // width: 100%;
     position: relative;
     padding-top: 20px;
 }
@@ -26,10 +23,8 @@
     text-transform: uppercase;
     text-align: center;
     span{
-        // display: inline-block;
         font-size: 81.12px;
         letter-spacing: .05em;
-        // outline: 1px solid red;
     }
 }
 .header_middle-span3{
@@ -44,15 +39,9 @@
     font-family: "MyriadPro-Regular";
 }
 .header_middle-women{
-
     display: block;
-    //width: 100%;
     max-width: 80%;
-    // max-width: 352px;
     height: auto;
-    
-
-
 }
 // *********************** header_middle ***********************
 
@@ -147,7 +136,7 @@
     padding-top: 50px;
 }
 .ac-additional-borderbox{
-    max-width: 455px;
+    max-width: 520px;      // max-width: 455px;
     text-align: center;
     margin: 0 auto;
 }
@@ -166,9 +155,9 @@
     margin-top: 15px;
     cursor: pointer;
 }
-.ac-list__item:hover{
-    background-color: #E6F3F5;
-}
+// .ac-list__item:hover{
+//     background-color: #E6F3F5;
+// }
 .ac-list__item-active{
     background-color: #fff;
 }
@@ -352,7 +341,6 @@
     font-family: "MyriadPro-Regular";
     font-size: 18px;
     text-align: center;
-    // width: 405px;
     margin: 45px 0px 95px 0px;
 }
 .ac-rev_link{
@@ -405,7 +393,7 @@
 // *********************** IMT ***********************
 .ac-wrapper-mod-window{
     max-height: 846px;
-    padding: 55px 0px 33px 0px;
+    padding: 51px 0px 35px 0px;
     border: 1px solid #ccc;
     box-shadow: 0px 2px 2px rgba(0,0,0,0.125);
 }
@@ -414,8 +402,10 @@
 }
 .mod-window-middle{
     background-color: #14b2cc;
-    max-height: 197px;
-    padding: 40px 0 66px 0;
+    max-height: 347px;
+    padding: 40px 25px 50px 25px;
+    margin-top: 21px;
+    text-align: center;
 }
 .ac-people-span4{
     display: block;
@@ -423,17 +413,20 @@
     font-size: 24px;
     line-height: 30px;
     color: #000;
-    margin-top: 23px;
+    margin-top: 27px;
 }
 .ac-people-text{
     display: block;
     font-family: "MyriadPro-Regular";
     font-size: 16px;
     line-height: 25px;
-    margin: 35px 0px;
+    margin: 34px 0px 5px 0px;
 }
 .acp-text{
-    text-align: left;
+    text-align: center;
+}
+.acp-text320{
+    // text-align: center;
 }
 .ac-calc-box{
     text-align: center;
@@ -464,7 +457,6 @@
 }
 .ac-form-box{
     display: table;
-    // width: 100%;
     background-color: #14b2cc;
     margin: 0px auto;
 }
@@ -482,7 +474,6 @@
     font-size: 36px;
     line-height: 24.93px;
     margin-top: 30px;
-
 }
 .ac-people-span3{
     display: block;
@@ -492,19 +483,25 @@
     margin-top: 15px;
 }
 .ac-form-element{
-    display: table-cell;
+    // display: table-cell;
+    display: inline-block;
     text-align: left;
     vertical-align: top;
-    padding-left: 30px;
+    margin-right: 30px;
 }
+.ac-margin-right{
+    margin-right: 0px;
+}
+
 .ac-form-button-box{
-    display: table-cell;
+    // display: table-cell;
+    display: inline-block;
     vertical-align: bottom;
-    padding-left: 30px;
+    // padding-right: 30px;
 }
 .ac-form-button{
-    display: inline-block;
-    width: 170px;
+    display: block;
+    width: 243px;
     height: 55px;
     border: 1px solid white;
     text-decoration: none;
@@ -515,14 +512,21 @@
     font-size: 14px;
     letter-spacing: .1em;
     transition: 0.8; //эффект перехода между двумя состояниями элемента
+    margin-top: 20px;
 }
 .ac-form-button:hover{
     background: #0E3F58;
     color: #fff;
 }
-.ac-form-index-input{
-    width: 143px;
+input[type="text"]{
+    width: 107px;
     height: 55px;
+    border: none;
+    font-family: "MyriadPro-Light";
+    font-size: 29.91px;
+    line-height: 24.93px;
+    color: #0e3f58;
+    padding: 15px 20px;
 }
 .ac-soc-buttons-list{
     display: block;
@@ -563,7 +567,6 @@
         }
     }
     .header_middle-women{
-        
         max-width: 50%;
         margin: 0 auto;
         margin-top: 20px;
@@ -595,17 +598,6 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-    .header_middle-span1{
-        // margin-top: 50px;
-    }
-    // .header_middle-span2{
-    //     margin-top: 10px;
-
-    // }
-    .header_middle-span3{
-        // margin-top: 10px;
-
-    }
     .program_item-link{
         font-size: 24.5px;
         padding: 15px 15px;
@@ -614,18 +606,13 @@
         width: 100%;
         max-width: 50%;
     }
-     .ac-rev-cell{
+    .ac-rev-cell{
         padding: 50px 30px;
         margin-bottom: 20px;
     }
 }
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-    .header_middle-span3{
-        // text-align: center;
-        // padding: 0px;
-
-    }
     .program-cell{
         float: left;
         width: 33.3%;
@@ -635,9 +622,6 @@
     }
     .program-cell2{
         width: 33.3%;
-    }
-    .header_middle-women{
-      
     }
     .header_middle-women__programs{
         width: 232px;
@@ -649,17 +633,6 @@
         height: 373px;
         margin: 35px 0px 0px 45px;
     }
-    // .header_middle-span1{
-    //     font-size: 99.74px;
-    //     line-height: 344.52px;
-    //     letter-spacing: .05em;
-    //     margin-top: 107px;
-    //     span{
-    //         font-size: 81.12px;
-    //         line-height: 280.2px;
-    //         letter-spacing: .05em;
-    //     }
-    // }
     .header_middle-span1__programs{
         font-size: 72.14px;
         text-align: left;
@@ -673,10 +646,6 @@
     .header_middle-span2{
         font-size: 81.12px;
         margin-top: 47px;
-    }
-    .header_middle-span3{
-        // font-size: 24px;
-        // margin-top: 34px;
     }
     .header_middle-span3__programs{
         font-size: 18px;
@@ -753,6 +722,42 @@
     .ac-rev-cell{
         padding: 70px 50px 100px 50px;
         margin-bottom: 20px;
+    }
+    .ac-wrapper-mod-window{
+        padding: 55px 0px 33px 0px;
+    }
+    .ac-people-span4{
+        margin-top: 23px;
+    }
+    .ac-people-text{
+        margin: 35px 0px;
+    }
+    .acp-text{
+        text-align: left;
+    }
+    .mod-window-middle{
+        max-height: 197px;
+        margin-top: 0px;
+        padding: 40px 0px 66px 0px;
+    }
+    .ac-form-element{
+        display: table-cell;
+        padding-left: 30px;
+        margin-right: 0px;
+    }
+    .ac-form-button-box{
+        display: table-cell;
+        padding-left: 30px;
+    }
+    input[type="text"]{
+        width: 143px;
+        height: 55px;
+    }
+    .ac-form-button{
+        display: inline-block;
+        width: 170px;
+        height: 55px;
+        margin-top: 0px;
     }
 
 }

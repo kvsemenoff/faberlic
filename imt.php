@@ -67,7 +67,7 @@
 					<span class="ac-form-index-text">Ваш вес (кг)</span>
 					<input type="text" name="text" placeholder="54" class="ac-form-index-input">
 				</div>
-				<div class="ac-form-element">
+				<div class="ac-form-element ac-margin-right">
 					<span class="ac-form-index-text">Ваш рост (см)</span>
 					<input type="text" name="uname" placeholder="172" class="ac-form-index-input">
 				</div>

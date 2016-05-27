@@ -170,101 +170,118 @@
 				</div>
 
 				<div class="ac-question ae-dispnone">
-					<span class="ac-row_span">Как вы оцениваете ваш вес2?</span>
+					<span class="ac-row_span">Как вы оцениваете ваш вес?</span>
 					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-span"><span class="ac-link-img"></span>Я вешу намного больше, чем хотелось бы</span></a>
+						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-span"><span class="ac-link-img"></span>Я вешу намного больше, чем хотелось бы</span></a>
 					</div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу немного больше, чем хотелось бы</span></a>
+						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу немного больше, чем хотелось бы</span></a>
 					</div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">Меня устраивает свой вес</span></a>
+						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Меня устраивает свой вес</span></a>
 					</div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу меньше, чем хотелось бы</span></a>
-					</div>
-				</div>
-
-				<div class="ac-question ae-dispnone">
-					<span class="ac-row_span">Как вы оцениваете ваш вес3?</span>
-					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-span"><span class="ac-link-img"></span>Я вешу намного больше, чем хотелось бы</span></a>
-					</div>
-					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу немного больше, чем хотелось бы</span></a>
-					</div>
-					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">Меня устраивает свой вес</span></a>
-					</div>
-					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу меньше, чем хотелось бы</span></a>
+						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу меньше, чем хотелось бы</span></a>
 					</div>
 				</div>
 
 				<div class="ac-question ae-dispnone">
-					<span class="ac-row_span">Как вы оцениваете ваш вес3?</span>
+					<span class="ac-row_span">Как часто вы принимаете пищу?</span>
 					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-span"><span class="ac-link-img"></span>Я вешу намного больше, чем хотелось бы</span></a>
+						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-span"><span class="ac-link-img"></span>1-2 раза в день</span></a>
 					</div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу немного больше, чем хотелось бы</span></a>
+						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">3-4 раз в день</span></a>
 					</div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">Меня устраивает свой вес</span></a>
+						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">5-6 раз в день</span></a>
 					</div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу меньше, чем хотелось бы</span></a>
-					</div>
-				</div>
-
-				<div class="ac-question ae-dispnone">
-					<span class="ac-row_span">Как вы оцениваете ваш вес3?</span>
-					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-span"><span class="ac-link-img"></span>Я вешу намного больше, чем хотелось бы</span></a>
-					</div>
-					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу немного больше, чем хотелось бы</span></a>
-					</div>
-					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">Меня устраивает свой вес</span></a>
-					</div>
-					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу меньше, чем хотелось бы</span></a>
+						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-img"></span><span class="ac-link-span">7 и более раз в день</span></a>
 					</div>
 				</div>
 
 				<div class="ac-question ae-dispnone">
-					<span class="ac-row_span">Как вы оцениваете ваш вес3?</span>
+					<span class="ac-row_span">Какие блюда вы употребляете чаще всего в течение дня?</span>
 					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-span"><span class="ac-link-img"></span>Я вешу намного больше, чем хотелось бы</span></a>
+						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-span"><span class="ac-link-img"></span>Бутерброды и фастфуд</span></a>
 					</div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу немного больше, чем хотелось бы</span></a>
+						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-img"></span><span class="ac-link-span">Овощные блюда</span></a>
 					</div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">Меня устраивает свой вес</span></a>
+						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">Жареные полуфабрикаты</span></a>
 					</div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу меньше, чем хотелось бы</span></a>
+						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Запеченные или приготовленные на пару блюда</span></a>
 					</div>
 				</div>
 
 				<div class="ac-question ae-dispnone">
-					<span class="ac-row_span">Как вы оцениваете ваш вес3?</span>
+					<span class="ac-row_span">Как часто вы ощущаете, что переели/чувство тяжести?</span>
 					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-span"><span class="ac-link-img"></span>Я вешу намного больше, чем хотелось бы</span></a>
+						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-span"><span class="ac-link-img"></span>Регулярно, я часто не могу остановиться и съедаю больше, чем нужно</span></a>
 					</div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу немного больше, чем хотелось бы</span></a>
+						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">Иногда, когда ощущаю сильный голод</span></a>
 					</div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">Меня устраивает свой вес</span></a>
+						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Редко, только после большого застолья</span></a>
 					</div>
 					<div class="col-md-6 col-sm-12 col-xs-12">
-						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-img"></span><span class="ac-link-span">Я вешу меньше, чем хотелось бы</span></a>
+						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-img"></span><span class="ac-link-span">Практически никогда</span></a>
 					</div>
 				</div>
 
+				<div class="ac-question ae-dispnone">
+					<span class="ac-row_span">Любите ли вы сладкое?</span>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-span"><span class="ac-link-img"></span>Да, просто жить без него не могу!</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">В принципе да, хотя могу и без него обойтись</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Не особенно, но иногда могу съесть кусочек</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-img"></span><span class="ac-link-span">Нет, не люблю</span></a>
+					</div>
+				</div>
+
+                <div class="ac-question ae-dispnone">
+                    <span class="ac-row_span">Занимаетесь ли вы спортом/физическими нагрузками?</span>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-span"><span class="ac-link-img"></span>Как минимум 2-3 раза в неделю хожу в спортзал</span></a>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">Иногда делаю зарядку и бегаю в парке</span></a>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Нет, у меня нет на это времени и сил</span></a>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-img"></span><span class="ac-link-span">Нет, не считаю, что мне это нужно</span></a>
+                    </div>
+                </div>
+
+				<div class="ac-question ae-dispnone">
+					<span class="ac-row_span">Каких целей в коррекции веса вы хотели бы достичь?</span>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="1"><span class="ac-link-span"><span class="ac-link-img"></span>Постепенно снизить вес, питаясь полноценно</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="2"><span class="ac-link-img"></span><span class="ac-link-span">Быстро сбросить несколько килограммов, даже если придется себя ограничивать</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="3"><span class="ac-link-img"></span><span class="ac-link-span">Перестроить привычки питания и привести вес в норму</span></a>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<a href="#justID" class="ac-row_link" datanumber="4"><span class="ac-link-img"></span><span class="ac-link-span">Поддержать существующий вес и периодически дать организму передышку</span></a>
+					</div>
+				</div>
+
+				
 			</div>
 			<div class="col-md-2 ac-row-block3">
 				<a href="#justID" class="ac-circle-right"><img src="img/arrow-in-circle-right.png" alt="arrow-in-circle-right"></a>

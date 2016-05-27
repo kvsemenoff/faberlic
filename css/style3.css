@@ -473,7 +473,8 @@ h1 {
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: .05em;
-  color: #fff; }
+  color: #fff;
+  outline: none; }
 
 .responsive-tabs__list__item:hover {
   background: #fff;

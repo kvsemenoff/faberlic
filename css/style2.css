@@ -466,7 +466,8 @@
 .ac-form-element {
   display: inline-block;
   text-align: left;
-  vertical-align: top; }
+  vertical-align: top;
+  margin-right: 30px; }
 
 .ac-form-button-box {
   display: inline-block;
@@ -540,9 +541,6 @@ input[type="text"] {
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
   .ac-margin-right {
-    margin-right: 0px; }
-
-  .ac-form-element {
     margin-right: 0px; } }
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */

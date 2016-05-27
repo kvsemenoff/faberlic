@@ -569,13 +569,13 @@ input[type="text"] {
 @media only screen and (min-width: 992px) {
   .program-cell {
     float: left;
-    width: 33.3%; }
+    width: 50%; }
 
   .program-cell1 {
-    width: 33.3%; }
+    width: 50%; }
 
   .program-cell2 {
-    width: 33.3%; }
+    width: 50%; }
 
   .header_middle-women__programs {
     width: 232px;

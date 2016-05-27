@@ -26,11 +26,12 @@
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="libs/wow/wow.min.js"></script>
 
+
 	<script>
     	new WOW().init();
     </script>
-	<script src="js/jquery.maskedinput.min.js"></script>
-	<script src="js/parallax.min.js"></script>
+
+	<script src="js/responsiveTabs.js"></script>
 	<script src="js/common.js"></script>
 
 	<?php require_once('header_top.php'); ?>
@@ -65,7 +66,7 @@
 					<input type="text" name="uname" placeholder="172" class="ac-form-index-input">
 				</div>
 				<div class="ac-form-button-box">
-					<input type="submit" class="ac-form-button" id="" value="РАСЧИТАТЬ">
+					<input type="submit" class="ac-form-button" id="ac-form-button5" value="РАСЧИТАТЬ">
 				</div>
 	       </div>
 	    </section>
@@ -88,7 +89,44 @@
 		</section>
 	</div>
 	<!-- *********************** IMT *********************** -->
+<!-- 
+<script>
+ $(document).ready(function() {
+  $('a[name=modal-order]').click(function(e) {
+      e.preventDefault();
+      var id = $(this).attr('href');
+      var maskHeight = $(document).height();
+      var maskWidth = $(window).width();
+      $('#mask').css({'width':maskWidth,'height':maskHeight});
+      $('#mask').fadeTo("slow",0.8); 
+      var winH = $(window).height();
+      var winW = $(window).width();
+      posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+      $(id).css('top',  posTop+100);
+      $(id).css('left', winW/2-$(id).width()/2);
+      $(id).fadeIn(500); 
+    });
+ });
+</script> -->
 
+<!-- ************************************************** -->
+<!-- <script>
+ $(document).ready(function() {
+  $('a[name=modal-order]').click(function(e) {
+     alert('привет!');
+    });
+ });
+</script> -->
+<!-- ************************************************** -->
+<script>
+ $(document).ready(function() {
+	$('.ac-form-button').click(function(e) {
+		// $('.ac-form-button').val().text();
+    	 alert('привет!');
+    });
+  
+ });
+</script>
 	
 </body>
 </html>

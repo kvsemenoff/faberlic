@@ -56,13 +56,6 @@
 		</section>
 		<section class="mod-window-middle">
 			<div class="ac-form-box">
-				<!-- <div class="ac-people">
-					<span class="ac-form-index-text">Ваш пол</span>
-			        <ul class="ac-people-list">
-			            <li class="ac-people-woman active"></li>
-			            <li class="ac-people-man"></li>
-			        </ul>
-			    </div> -->
 		        <div class="ac-form-element">
 					<span class="ac-form-index-text">Ваш вес (кг)</span>
 					<input type="text" name="text" placeholder="54" class="ac-form-index-input">

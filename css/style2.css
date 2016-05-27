@@ -186,7 +186,9 @@
     width: 18px;
     height: 18px;
     background: url(../img/true-circle.png) center center no-repeat;
-    margin-right: 10px; }
+    margin-right: 10px;
+    line-height: normal;
+    vertical-align: middle; }
 
 .ac-block1 {
   padding-top: 10px; }
@@ -288,6 +290,11 @@
   font-size: 12px;
   color: #8b8b8b;
   margin: 20px; }
+
+.ac-link-span {
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle; }
 
 .ac-soveti-img {
   display: inline-block; }
@@ -399,6 +406,9 @@
 .acp-text {
   text-align: center; }
 
+.acp-text320 {
+  margin: 28px 0px 45px 0px; }
+
 .ac-calc-box {
   text-align: center; }
 
@@ -497,10 +507,15 @@ input[type="text"] {
 
 .ac-soc-buttons-list {
   display: block;
-  text-align: center; }
+  text-align: center;
+  padding: 0px 30px; }
   .ac-soc-buttons-list li {
     display: inline-block;
-    margin-left: 10px; }
+    margin-left: 10px;
+    margin-top: 15px; }
+
+.ac-form-result {
+  margin-bottom: 35px; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
@@ -619,7 +634,9 @@ input[type="text"] {
   .ac-row_link {
     width: 360px;
     height: 55px;
-    padding: 18px 0px; }
+    padding: 0px;
+    line-height: 55px;
+    display: inline-block; }
 
   .program_item-pinklink {
     width: 335px;
@@ -687,7 +704,12 @@ input[type="text"] {
     display: inline-block;
     width: 170px;
     height: 55px;
-    margin-top: 0px; } }
+    margin-top: 0px; }
+
+  .ac-soc-buttons-list {
+    padding: 0px 0px; }
+    .ac-soc-buttons-list li {
+      margin-top: 0px; } }
 /* Large Devices, Wide Screens */
 
 /*# sourceMappingURL=style2.css.map */
